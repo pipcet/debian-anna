@@ -208,13 +208,13 @@ int md5sum(const char *sum, const char *file) {
 	if (fp == NULL)
 		return 0;
 	if (fgets(line, sizeof(line), fp) != NULL) {
-		fclose(fp);
+		pclose(fp);
 		if (strlen(line) < 32)
 			return 0;
 		line[32] = '\0';
 		return !strcmp(line, sum);
 	}
-	fclose(fp);
+	pclose(fp);
 	return 0;
 }
 

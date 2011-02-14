@@ -1,3 +1,9 @@
+anna (1.40) UNRELEASED; urgency=low
+
+  * Fix use of pclose for popened handles. Closes: #613277
+
+ -- Joey Hess <joeyh@debian.org>  Mon, 14 Feb 2011 11:22:28 -0400
+
 anna (1.39) unstable; urgency=low
 
   [ Updated translations ]
