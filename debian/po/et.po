@@ -8,7 +8,7 @@
 # This translation is released under the same licence as the debian-installer.
 #
 # Siim Põder <siim@p6drad-teel.net>, 2007.
-# Mattias Põldaru <mahfiaz@gmail.com>, 2009-2010.
+# Mattias Põldaru <mahfiaz@gmail.com>, 2009-2011.
 #
 # Thanks to following Ubuntu Translators for review and fixes:
 #     Laur Mõtus
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2010-07-07 14:27+0300\n"
+"PO-Revision-Date: 2011-03-22 14:11+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Eesti\n"
 "MIME-Version: 1.0\n"
@@ -151,6 +151,6 @@ msgid ""
 "choosing to install a different version of Debian. The install will probably "
 "fail to work if you continue without kernel modules."
 msgstr ""
-"Kui sa paigaldad peegelduselt, võid valida paigaldamiseks teise Debiani "
+"Kui sa paigaldad peeglist, võid valida paigaldamiseks teise Debiani "
 "versiooni ja nii probleemist mööda hiilida. Kui proovid jätkata ilma kerneli "
 "mooduliteta, siis paigaldamine tõenäoliselt nurjub."
