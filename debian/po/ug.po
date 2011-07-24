@@ -12,6 +12,8 @@
 # in doc/i18n/i18n.txt
 #
 #
+# Translations from iso-codes:
+# Sahran <sahran.ug@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
@@ -45,7 +47,7 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
-"ئورناتقۇچنىڭ ئورنىتىشقا زۆرۈر بۆلەكلىرى ئاپتوماتىك چۈشۈرۈلىدۇ ھەم بۇ يەردە "
+"ئورناتقۇنىڭ ئورنىتىشقا زۆرۈر بۆلەكلىرى ئاپتوماتىك چۈشۈرۈلىدۇ ھەم بۇ يەردە "
 "كۆرسىتىلمەيدۇ. بەزى قوشۇمچە بۆلەكلەر تۆۋەندە كۆرسىتىلگەن. ئۇلارنىڭ "
 "زۆرۈرىيىتى بولماسلىقى مۇمكىن، شۇنداقتىمۇ بەزى ئىشلەتكۈچىلەر قىزىقىشى مۇمكىن."
 
@@ -136,7 +138,7 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
-"يادرو(kernel) بۆلەكلىرى تېپىلمىدى. ئورناتقۇچنىڭ مەزكۇر نۇسخىسى ئىشلەتكەن "
+"يادرو(kernel) بۆلەكلىرى تېپىلمىدى. ئورناتقۇنىڭ مەزكۇر نۇسخىسى ئىشلەتكەن "
 "يادرولۇق بۆلەك بىلەن ئامباردىكى ئىشلەتكىلى بولىدىغان يادرولۇق بۆلەك "
 "نۇسخىسىنىڭ ماس كەلمەسلىكى سەۋەب بولغان بولۇشى مۇمكىن."
 
