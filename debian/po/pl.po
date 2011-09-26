@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2011-09-18 21:28+0100\n"
+"PO-Revision-Date: 2011-09-26 10:46+0100\n"
 "Last-Translator: Marcin Owsiany <porridge@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -47,7 +47,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr ""
+msgstr "Składniki instalatora do załadowania:"
 
 #. Type: multiselect
 #. Description
@@ -59,6 +59,10 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
+"Wszystkie potrzebne do instalacji składniki instalatora zostaną załadowane i "
+"nie będą znajdować się na tej liście. Inne (opcjonalne) składniki będą "
+"znajdować się poniżej. Prawdopodobnie nie są niezbędne, jednak mogą "
+"zainteresować niektórych użytkowników."
 
 #. Type: multiselect
 #. Description
@@ -71,6 +75,8 @@ msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
 msgstr ""
+"Pamiętaj, że po wyborze składnika wymagającego innych składników, również "
+"one zostaną załadowane."
 
 #. Type: multiselect
 #. Description
@@ -83,6 +89,11 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
+"By zmniejszyć ilość używanej pamięci, domyślnie tylko składniki wymagane do "
+"instalacji są wybierane. Inne nie są potrzebne w przypadku podstawowej "
+"instalacji, możliwe jednakże, że będziesz potrzebować niektórych z nich, a "
+"szczególnie modułów jądra. Przejrzyj listę dokładnie i wybierz potrzebne Ci "
+"składniki."
 
 #. Type: text
 #. Description
@@ -91,7 +102,7 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:3001
 msgid "Loading additional components"
-msgstr ""
+msgstr "Ładowanie dodatkowych składników"
 
 #. Type: text
 #. Description
@@ -100,7 +111,7 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:4001
 msgid "Retrieving ${PACKAGE}"
-msgstr ""
+msgstr "Pobieranie ${PACKAGE}"
 
 #. Type: text
 #. Description
@@ -109,14 +120,14 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:5001
 msgid "Configuring ${PACKAGE}"
-msgstr ""
+msgstr "Konfigurowanie ${PACKAGE}"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr ""
+msgstr "Załadowanie składnika instalatora nie powiodło się"
 
 #. Type: error
 #. Description
@@ -124,13 +135,15 @@ msgstr ""
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
+"Załadowanie ${PACKAGE} nie powiodło się, a przyczyna nie jest znana. "
+"Przerywanie."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr ""
+msgstr "Kontynuować instalację bez ładowania modułów jądra?"
 
 #. Type: boolean
 #. Description
@@ -141,6 +154,8 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
+"Nie znaleziono modułów jądra. Prawdopodobnie z powodu niezgadzających się "
+"wersji jądra używanego przez instalator i tego znajdującego się w archiwum."
 
 #. Type: boolean
 #. Description
@@ -151,3 +166,6 @@ msgid ""
 "choosing to install a different version of Debian. The install will probably "
 "fail to work if you continue without kernel modules."
 msgstr ""
+"Jeśli instalujesz korzystając z serwera lustrzanego, możesz obejść ten "
+"problem wybierając instalację innej wersji Debiana. Instalacja bez modułów "
+"jądra prawdopodobnie nie powiedzie się."
