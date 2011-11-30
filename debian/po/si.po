@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2011-11-01 00:30+0530\n"
-"Last-Translator: Danishka Navin <danishka@gmail.com>\n"
+"PO-Revision-Date: 2011-09-15 07:01+0530\n"
+"Last-Translator: \n"
 "Language-Team: Sinhala <info@hanthana.org>\n"
 "Language: si\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr ""
+msgstr "පූර්ණය කිරීමට ඇවැසි ස්ථාපක සංරචක:"
 
 #. Type: multiselect
 #. Description
@@ -47,6 +47,9 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
+"ස්ථාපනය සම්පූර්ණ කිරීමට ස්ථාපකයට ඇවැසි සියළු සංරචක ස්වයංක්‍රීයව පූර්ණය වනු ඇති අතර මෙහි ලැයිස්තුගත "
+"නොවේ. වෙනත් (අමතර) ස්ථාපක සංරචක පමණක් පහත දැක්වේ, ඒවා බොහෝ විට අත්‍යාවශ්‍ය නොවන නමුත්, "
+"ඇතැම් පරිශීලකයන් ඒවාට කැමැත්තක් දැක්විය හැක."
 
 #. Type: multiselect
 #. Description
@@ -59,6 +62,7 @@ msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
 msgstr ""
+"ඔබ විසින් වෙනත් සංරචක ඉල්ලා සිටින සංරචකයක් තෝරාගතහොත් එම සංරචකද පූර්ණය වන බව සලකන්න."
 
 #. Type: multiselect
 #. Description
@@ -71,6 +75,9 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
+"මතකය සුරැකීම සඳහා ස්ථාපනයට අත්‍යාවශ්‍ය සංරචක පමණක් පෙරනිමියෙන් තෝරා ඇත. අනෙක් ස්ථාපක "
+"සංරචක සියල්ලම මූලික ස්ථාපනයකට ඇවැසි නොවේ. එහෙත් ඔබට කර්නල මොඩියුල වැනි ඒවායින් සමහරක් ඇවැසි "
+"විය හැක, එමනිසා ලැයිස්තුව ප්‍රවේශමෙන් පිරික්සා බලා ඇවැසි සංරචක තෝරා ගන්න."
 
 #. Type: text
 #. Description
@@ -79,7 +86,7 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:3001
 msgid "Loading additional components"
-msgstr ""
+msgstr "අමතර සංරචක පූරණය කරමින්"
 
 #. Type: text
 #. Description
@@ -88,7 +95,7 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:4001
 msgid "Retrieving ${PACKAGE}"
-msgstr ""
+msgstr "${PACKAGE} ලබාගනිමින්"
 
 #. Type: text
 #. Description
@@ -97,28 +104,28 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:5001
 msgid "Configuring ${PACKAGE}"
-msgstr ""
+msgstr "${PACKAGE} සැකසීම"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr ""
+msgstr "ස්ථාපක සංරචක පූර්ණය අසාර්ථක විය"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
-msgstr ""
+msgstr "${PACKAGE} පූර්ණය කිරීම නොදන්නා හේතුවක් නිසා අසාර්ථකයි, පිටවෙමින්."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr ""
+msgstr "කර්නල මොඩියුල පූර්ණයෙන් තොරව ස්ථාපනය ඉදිරියට ගෙනයන්නද?"
 
 #. Type: boolean
 #. Description
@@ -129,6 +136,8 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
+"කිසිඳු කර්නල මොඩියුලයක් හමු නොවිනි. එය බොහෝවිට මෙම ස්ථාපක සංස්කරණය මගින් භාවිත කරන කර්නල ය හා "
+"සංරක්‍ෂකයේ පවතින කර්නල සංස්කරණය නොගැලපීම හේතු විය හැක."
 
 #. Type: boolean
 #. Description
@@ -139,3 +148,6 @@ msgid ""
 "choosing to install a different version of Debian. The install will probably "
 "fail to work if you continue without kernel modules."
 msgstr ""
+"ඔබ පිළිබිඹුවකින් මෙම ස්ථාපනය සිදුකරයි නම්, වෙනත් Debian සංස්කරණයක් තෝරාගැනීම මගින් මෙම ගැටළුව "
+"මගහැර යා හැක, ඔක කර්නල මොඩියුලයන්ගෙන් තොරව ඉදිරියට යයි නම් ස්ථාපනය බොහෝවිට අසාර්ථක විය "
+"හැක."
