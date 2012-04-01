@@ -7,12 +7,22 @@
 # This file is distributed under the same license as debian-installer.
 #
 # Felipe Augusto van de Wiel (faw) <faw@debian.org>, 2008-2010.
+#
+# Translations from iso-codes:
+# Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
+# Free Software Foundation, Inc., 2000
+# Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2000,2005.
+# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-9.
+# Lisiane Sztoltz <lisiane@conectiva.com.br>
+# Tobias Quathamer <toddy@debian.org>, 2007.
+#   Translations taken from ICU SVN on 2007-09-09
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2010-07-19 16:41-0300\n"
+"PO-Revision-Date: 2012-03-31 20:46-0300\n"
 "Last-Translator: Felipe Augusto van de Wiel (faw) <faw@debian.org>\n"
 "Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
 "org>\n"
@@ -136,9 +146,9 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
-"Não foram encontrados módulos do kernel. Isto provavelmente é devido a uma "
-"má combinação entre o kernel usado por esta versão do instalador e a versão "
-"do kernel disponível no repositório."
+"Nenhum módulo de kernel foi encontrado. Provavelmente isso ocorreu devido a "
+"uma má combinação entre o kernel usado por esta versão do instalador e a "
+"versão do kernel disponível no repositório."
 
 #. Type: boolean
 #. Description
@@ -151,4 +161,4 @@ msgid ""
 msgstr ""
 "Se você está instalando a partir de um espelho de rede, você pode contornar "
 "este problema optando por instalar uma versão diferente do Debian. A "
-"instalação provavelmente falhará se você continuar sem os módulos do kernel."
+"instalação provavelmente falhará se você continuar sem módulos de kernel."
