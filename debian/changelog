@@ -1,3 +1,10 @@
+anna (1.41) UNRELEASED; urgency=low
+
+  [ Samuel Thibault ]
+  * Fix running kernel version detection on hurd-i386.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 11 Jun 2012 00:34:33 +0200
+
 anna (1.40) unstable; urgency=low
 
   * Team upload

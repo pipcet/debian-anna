@@ -423,7 +423,18 @@ int main(int argc, char **argv) {
 	subarchitecture = di_system_subarch_analyze();
 
 	if (uname(&uts) == 0) {
+#ifdef __GNU__
+		if (!strncmp(uts.version, "GNU-Mach ", 9)) {
+			char *slash = index(uts.version, '/');
+			if (slash)
+				running_kernel = strndup (uts.version + 9, slash - (uts.version + 9));
+			else
+				running_kernel = strdup (uts.version + 9);
+		} else
+			running_kernel = strdup(uts.version);
+#else
 		running_kernel = strdup(uts.release);
+#endif
 	}
 
 	quiet_env = getenv("ANNA_QUIET");
