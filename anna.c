@@ -53,12 +53,16 @@ int packages_ok (di_packages *packages) {
 
 	if (!kernel_packages_present) {
 		di_log(DI_LOG_LEVEL_WARNING, "no packages matching running kernel %s in archive", running_kernel);
+#ifdef __GNU__
+		/* GNU Mach does not have modules */
+#else
 		debconf_input(debconf, "critical", "anna/no_kernel_modules");
 		if (debconf_go(debconf) == 30)
 			return 0;
 		debconf_get(debconf, "anna/no_kernel_modules");
 		if (strcmp(debconf->value, "false") == 0)
 			return 0;
+#endif
 	}
 
 	return 1;

@@ -2,6 +2,7 @@ anna (1.41) UNRELEASED; urgency=low
 
   [ Samuel Thibault ]
   * Fix running kernel version detection on hurd-i386.
+  * Do not warn about missing modules on hurd-i386 since it doesn't have any.
 
  -- Samuel Thibault <sthibault@debian.org>  Mon, 11 Jun 2012 00:34:33 +0200
 
