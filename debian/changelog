@@ -1,10 +1,36 @@
-anna (1.41) UNRELEASED; urgency=low
+anna (1.41) unstable; urgency=low
 
   [ Samuel Thibault ]
   * Fix running kernel version detection on hurd-i386.
   * Do not warn about missing modules on hurd-i386 since it doesn't have any.
 
- -- Samuel Thibault <sthibault@debian.org>  Mon, 11 Jun 2012 00:34:33 +0200
+  [ Updated translations ]
+  * Asturian (ast.po) by Mikel González
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Tibetan (bo.po) by Tennom
+  * German (de.po) by Holger Wansing
+  * Estonian (et.po) by Mattias Põldaru
+  * Galician (gl.po) by Jorge Barreiro
+  * Hebrew (he.po) by Lior Kaplan
+  * Hindi (hi.po) by Kumar Appaiah
+  * Indonesian (id.po) by Mahyuddin Susanto
+  * Icelandic (is.po) by Sveinn í Felli
+  * Italian (it.po) by Milo Casagrande
+  * Kannada (kn.po) by Prabodh C P
+  * Lithuanian (lt.po) by Rimas Kudelis
+  * Latvian (lv.po) by Rūdolfs Mazurs
+  * Macedonian (mk.po) by Arangel Angov
+  * Panjabi (pa.po) by A S Alam
+  * Polish (pl.po) by Marcin Owsiany
+  * Portuguese (Brazil) (pt_BR.po) by Felipe Augusto van de Wiel (faw)
+  * Romanian (ro.po) by Ioan Eugen Stan
+  * Sinhala (si.po)
+  * Ukrainian (uk.po) by Borys Yanovych
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+  * Traditional Chinese (zh_TW.po) by Yao Wei (魏銘廷)
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 14 Jun 2012 20:14:34 +0200
 
 anna (1.40) unstable; urgency=low
 
