@@ -1,3 +1,12 @@
+anna (1.42) unstable; urgency=low
+
+  * Team upload
+
+  [ Updated translations ]
+  * Welsh (cy.po) by Daffyd Tomos
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 15 Jun 2012 06:29:11 +0200
+
 anna (1.41) unstable; urgency=low
 
   [ Samuel Thibault ]
