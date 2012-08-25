@@ -1,3 +1,10 @@
+anna (1.43) unstable; urgency=low
+
+  [ Updated translations ]
+  * French (fr.po) by Christian Perrier
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 18 Aug 2012 13:54:41 +0200
+
 anna (1.42) unstable; urgency=low
 
   * Team upload
