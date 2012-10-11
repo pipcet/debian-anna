@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2012-06-10 01:37+0200\n"
+"PO-Revision-Date: 2012-10-11 00:57+0200\n"
 "Last-Translator: Jorge Barreiro <yortx.barry@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -127,7 +127,7 @@ msgstr "Non foi posíbel cargar unha compoñente do instalador"
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
-"Produciuse un erro ó cargar ${PACKAGE} por motivos descoñecidos. "
+"Produciuse un erro ao cargar ${PACKAGE} por motivos descoñecidos. "
 "Interrompendo."
 
 #. Type: boolean
