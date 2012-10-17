@@ -1,9 +1,14 @@
-anna (1.44) UNRELEASED; urgency=low
+anna (1.44) unstable; urgency=low
 
   * Replace XC-Package-Type by Package-Type in debian/control
   * Add myself to Uploaders
 
- -- Christian Perrier <bubulle@debian.org>  Wed, 17 Oct 2012 08:27:03 +0200
+  [ Updated translations ]
+  * Asturian (ast.po) by ivarela
+  * Galician (gl.po) by Jorge Barreiro
+  * Ukrainian (uk.po) by Yuri Chornoivan
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 17 Oct 2012 08:28:49 +0200
 
 anna (1.43) unstable; urgency=low
 
