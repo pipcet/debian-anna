@@ -1,3 +1,9 @@
+anna (1.44) UNRELEASED; urgency=low
+
+  * Replace XC-Package-Type by Package-Type in debian/control
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 17 Oct 2012 08:27:03 +0200
+
 anna (1.43) unstable; urgency=low
 
   [ Updated translations ]

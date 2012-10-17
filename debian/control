@@ -11,4 +11,4 @@ Package: anna
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: anna's not nearly apt, but for the Debian installer, it will do
-XC-Package-Type: udeb
+Package-Type: udeb
