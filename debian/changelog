@@ -1,3 +1,9 @@
+anna (1.45) UNRELEASED; urgency=low
+
+  * Use dpkg-buildflags.
+
+ -- Colin Watson <cjwatson@debian.org>  Tue, 20 Nov 2012 13:32:13 +0000
+
 anna (1.44) unstable; urgency=low
 
   * Replace XC-Package-Type by Package-Type in debian/control
