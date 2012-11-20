@@ -43,7 +43,10 @@ int get_lowmem_level (void) {
 	l=open(LOWMEM_STATUS_FILE, O_RDONLY);
 	if (l != -1) {
 		char buf[2];
-		read(l, buf, 1);
+		if (read(l, buf, 1) != 1) {
+			close(l);
+			return 0;
+		}
 		close(l);
 		return atoi(buf);
 	}

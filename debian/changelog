@@ -2,6 +2,8 @@ anna (1.45) UNRELEASED; urgency=low
 
   * Use dpkg-buildflags.
   * Handle asprintf failures consistently.
+  * Fix undefined behaviour in get_lowmem_level if /var/lib/lowmem is
+    present but empty.
 
  -- Colin Watson <cjwatson@debian.org>  Tue, 20 Nov 2012 13:32:13 +0000
 
