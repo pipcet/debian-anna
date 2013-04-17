@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2013-04-16 05:30+0200\n"
+"PO-Revision-Date: 2013-04-17 18:08+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -52,10 +52,10 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
-"Svi dijelovi instalera potrebni za završetak instalacije će biti automatski "
-"učitani i oni nisu na ovom popisu. Ostali, opcionalni dijelovi instalera su "
-"prikazani ispod. Oni vjerojatno nisu neophodni, ali mogu biti zanimljivi "
-"nekim korisnicima."
+"Svi dijelovi instalacijskog programa potrebni za završetak instalacije će se "
+"automatski učitati i oni nisu na ovom popisu. Ostali, opcionalni dijelovi "
+"instalacijskog programa su prikazani ispod. Oni vjerojatno nisu neophodni, "
+"ali mogu biti zanimljivi nekim korisnicima."
 
 #. Type: multiselect
 #. Description
@@ -69,7 +69,7 @@ msgid ""
 "will also be loaded."
 msgstr ""
 "Obratite pozornost: ako izaberete dio koji zahtijeva druge dijelove, i ti će "
-"drugi dijelovi biti učitani."
+"se dijelovi učitati."
 
 #. Type: multiselect
 #. Description
@@ -82,8 +82,8 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
-"Zbog uštede memorije, samo oni moduli instalacije koji su sigurno potrebni "
-"za instalaciju su odabrani za učitavanje. Ostali popisani dijelovi nisu "
+"Zbog uštede memorije, samo oni dijelovi instalacije koji su sigurno potrebni "
+"za instalaciju su izabrani za učitavanje. Ostali popisani dijelovi nisu "
 "neophodni za osnovnu instalaciju, ali ćete možda ipak trebati neke od njih, "
 "osobito pojedine module za kernel. Zato pozorno pregledajte popis i "
 "izaberite dijelove koji su vam potrebni."
@@ -127,7 +127,7 @@ msgstr "Učitavanje instalacijskog dijela nije uspjelo"
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
-msgstr "Učitavanje ${PACKAGE} nije uspjelo iz neznanih razloga. Prekidam."
+msgstr "Učitavanje ${PACKAGE} nije uspjelo zbog nepoznatih razloga. Prekidam."
 
 #. Type: boolean
 #. Description
@@ -146,7 +146,7 @@ msgid ""
 "available in the archive."
 msgstr ""
 "Nema modula za kernel. Razlog tomu je vjerojatno nepodudarnost inačica "
-"kernela kojeg koristi instalacija i kernela dostupnog u arhivi."
+"jezgre koju koristi instalacija i jezgre dostupne u arhivi."
 
 #. Type: boolean
 #. Description
@@ -159,4 +159,4 @@ msgid ""
 msgstr ""
 "Ako instalirate sa zrcalnog poslužitelja, možete riješiti ovaj problem "
 "instalirajući neku drugu inačicu Debiana. Instalacija vjerojatno neće "
-"uspjeti ako nastavite bez modula za kernel."
+"uspjeti ako nastavite bez modula za jezgru."
