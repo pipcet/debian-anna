@@ -1,3 +1,10 @@
+anna (1.46) unstable; urgency=low
+
+  [ Updated translations ]
+  * Croatian (hr.po) by Tomislav Krznar
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 12 May 2013 19:57:05 +0200
+
 anna (1.45) unstable; urgency=low
 
   [ Colin Watson ]
