@@ -1,9 +1,16 @@
+anna (1.50) unstable; urgency=low
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 06 Nov 2013 19:20:31 +0100
+
 anna (1.49) unstable; urgency=low
 
   [ Updated translations ]
   * Tajik (tg.po) by Victor Ibragimov
 
- -- Christian Perrier <bubulle@debian.org>  Sat, 14 Sep 2013 09:34:19 +0200
+ -- Christian Perrier <bubulle@debian.org>  Wed, 06 Nov 2013 19:18:12 +0100
 
 anna (1.48) unstable; urgency=low
 
