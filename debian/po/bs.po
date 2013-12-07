@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2013-11-29 19:21+0100\n"
+"PO-Revision-Date: 2013-12-01 21:06+0100\n"
 "Last-Translator: Amila Valjevčić <valjevcic.amila@gmail.com>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
@@ -49,7 +49,6 @@ msgstr "Komponente instalera koje će biti učitane:"
 #. Description
 #. :sl2:
 #: ../anna.templates:1001
-#, fuzzy
 msgid ""
 "All components of the installer needed to complete the install will be "
 "loaded automatically and are not listed here. Some other (optional) "
@@ -58,7 +57,7 @@ msgid ""
 msgstr ""
 "Sve komponente instalera potrebne za završavanje instalacije će biti "
 "automatski učitane i nisu navedene ovdje. Ostale (opcionalne) komponente "
-"instalatera su prikazane ispod. One vjerovatno nisu neophodne, ali mogu "
+"instalera su prikazane ispod. One vjerovatno nisu neophodne, ali mogu "
 "zanimati neke korisnike."
 
 #. Type: multiselect
@@ -68,7 +67,6 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
-#, fuzzy
 msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
@@ -80,7 +78,6 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:2001
-#, fuzzy
 msgid ""
 "To save memory, only components that are certainly needed for an install are "
 "selected by default. The other installer components are not all necessary "
@@ -88,10 +85,10 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
-"Kako bi uštedjeli memoriju, samo one komponente koje su zasigurno neophodne "
-"za instalaciju se podrazumijevano odabiraju. Ostale komponente instalera "
-"nisu sve potrebne za osnovnu instalaciju, ali će Vam možda trebati neke od "
-"njih, posebno određeni kernel moduli, pa pažljivo pogledajte ovaj spisak i "
+"Kako bi sačuvali memoriju, samo one komponente koje su zasigurno neophodne "
+"za instalaciju se podrazumijevano odabiraju. Sve ostale komponente instalera "
+"nisu potrebne za osnovnu instalaciju, ali će Vam možda trebati neke od njih, "
+"posebno određeni kernel moduli, pa pažljivo pogledajte ovaj spisak i "
 "odaberite komponente koje Vam trebaju."
 
 #. Type: text
@@ -146,14 +143,13 @@ msgstr "Nastaviti instalaciju bez učitavanja kernel modula?"
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid ""
 "No kernel modules were found. This probably is due to a mismatch between the "
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
 "Kernel moduli nisu pronađeni. Ovo je vjerovatno zbog neslaganja između "
-"kernela koji koristi ova verzija instalatera i verzije kernela dostupne u "
+"kernela koji koristi ova verzija instalera i verzije kernela dostupne u "
 "arhivi."
 
 #. Type: boolean
