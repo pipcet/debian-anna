@@ -1,3 +1,10 @@
+anna (1.53) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 13 Jun 2015 07:45:28 +0200
+
 anna (1.52) unstable; urgency=medium
 
   [ Updated translations ]
