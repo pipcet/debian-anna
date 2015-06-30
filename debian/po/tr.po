@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2015-06-09 16:17+0200\n"
+"PO-Revision-Date: 2015-06-30 01:49+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -45,9 +45,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
-#, fuzzy
 msgid "Installer components to load:"
-msgstr "Kurulum bileşenlerini CD'den yükle"
+msgstr "Yüklenecek kurulum bileşenleri:"
 
 #. Type: multiselect
 #. Description
@@ -59,6 +58,10 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
+"Kurulum programının, kurulumun tamamlanması için ihtiyaç duyacağı "
+"bileşenlerin tümü otomatik olarak yükleneceğinden burada listelenmemiştir. "
+"Diğer bazı (isteğe bağlı) kurulum bileşenleri aşağıda görülmektedir. Bunlar "
+"çoğu durum için gereksizdir; fakat bazı kullanıcıların işine yarayabilir."
 
 #. Type: multiselect
 #. Description
@@ -71,6 +74,8 @@ msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
 msgstr ""
+"Seçtiğiniz bileşenlerin bağımlı olduğu diğer bileşenlerin de kurulacağını "
+"unutmayın."
 
 #. Type: multiselect
 #. Description
@@ -83,6 +88,11 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
+"Bellekten kazanmak için, kurulum bileşenlerinden sadece kesinlikle ihtiyaç "
+"duyulanlar yüklenecektir. Diğer kurulum bileşenleri temel bir kurulum için "
+"gerekli değildir. Fakat, başta çekirdek modülleri olmak üzere, bunların "
+"bazılarına ihtiyaç duyabileceğinizden listeyi dikkatlice inceleyin ve "
+"gerekli bileşenleri seçin."
 
 #. Type: text
 #. Description
@@ -115,24 +125,22 @@ msgstr "${PACKAGE} yapılandırılıyor"
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
-#, fuzzy
 msgid "Failed to load installer component"
-msgstr "Kurulum programı bileşenlerini indir"
+msgstr "Kurulum bileşeni yüklenemedi"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
-msgstr ""
+msgstr "${PACKAGE} bileşeni bilinmeyen nedenlerle yüklenemedi."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "Continue the install without loading kernel modules?"
-msgstr "Kuruluma seçilen dilde devam edilsin mi?"
+msgstr "Çekirdek modüllerini yüklemeden kuruluma devam edilsin mi?"
 
 #. Type: boolean
 #. Description
@@ -143,6 +151,9 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
+"Herhangi bir çekirdek modülü bulunamadı. Bu muhtemelen kurulum programının "
+"bu sürümü tarafından kullanılan çekirdekle, arşivde mevcut çekirdek sürümü "
+"arasındaki bir uyuşmazlıktan kaynaklanıyor."
 
 #. Type: boolean
 #. Description
@@ -153,3 +164,6 @@ msgid ""
 "choosing to install a different version of Debian. The install will probably "
 "fail to work if you continue without kernel modules."
 msgstr ""
+"Bir yansıdan kurulum yapıyorsanız farklı bir Debian sürümü kurmayı seçerek "
+"bu problemi geçici olarak çözebilirsiniz. Çekirdek modülleri olmadan "
+"sürdürülen bir kurulum büyük bir olasılıkla başarısız olacaktır."
