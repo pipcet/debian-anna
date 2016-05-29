@@ -3,6 +3,30 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Czech messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001.
+#   Free Software Foundation, 2002,2004 
+#   Miroslav Kure <kurem@debian.cz>, 2004--2010.
+#   Petr Cech <cech@debian.org> (Petr Čech), 2000.
+#   Stanislav Brabec <utx@penguin.cz>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
+"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team:  Czech <provoz@debian.cz>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: multiselect
 #. Description
 #. :sl2:
@@ -11,7 +35,7 @@
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr ""
+msgstr "Komponenty instalátoru, které se mají nahrát:"
 
 #. Type: multiselect
 #. Description
@@ -23,6 +47,10 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
+"Všechny komponenty instalátoru nutné pro dokončení instalace budou nahrány "
+"automaticky a proto zde nejsou uvedeny. Zde uvedené komponenty instalátoru "
+"jsou volitelné a pravděpodobně nejsou potřeba, i když mohou být pro některé "
+"uživatele zajímavé."
 
 #. Type: multiselect
 #. Description
@@ -35,6 +63,8 @@ msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
 msgstr ""
+"Pokud vyberete komponentu, která vyžaduje další komponenty, budou také "
+"nainstalovány."
 
 #. Type: multiselect
 #. Description
@@ -47,6 +77,10 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
+"Pro ušetření paměti jsou implicitně vybrány pouze nezbytné komponenty "
+"instalačního programu. K základní instalaci není zapotřebí všech komponent, "
+"ale některé z nich jsou poměrně užitečné, obzvláště vybrané moduly jádra. "
+"Pozorně si tedy seznam prohlédněte a vyberte komponenty, které potřebujete."
 
 #. Type: text
 #. Description
@@ -55,7 +89,7 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:3001
 msgid "Loading additional components"
-msgstr ""
+msgstr "Nahrávají se dodatečné komponenty"
 
 #. Type: text
 #. Description
@@ -64,7 +98,7 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:4001
 msgid "Retrieving ${PACKAGE}"
-msgstr ""
+msgstr "Stahuje se ${PACKAGE}"
 
 #. Type: text
 #. Description
@@ -73,28 +107,28 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:5001
 msgid "Configuring ${PACKAGE}"
-msgstr ""
+msgstr "Nastavuje se ${PACKAGE}"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr ""
+msgstr "Nahrání komponenty instalačního programu selhalo"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
-msgstr ""
+msgstr "Nahrání ${PACKAGE} selhalo z neznámého důvodu. Ruším akci."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr ""
+msgstr "Pokračovat v instalaci bez nahrání modulů jádra?"
 
 #. Type: boolean
 #. Description
@@ -105,6 +139,8 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
+"Nebyly nalezeny žádné moduly jádra. Pravděpodobně je to způsobeno rozdílným "
+"jádrem používaným touto verzí instalátoru a jádrem dostupným v archivu."
 
 #. Type: boolean
 #. Description
@@ -115,3 +151,6 @@ msgid ""
 "choosing to install a different version of Debian. The install will probably "
 "fail to work if you continue without kernel modules."
 msgstr ""
+"Pokud instalujete ze zrcadla, můžete tento problém obejít instalováním jiné "
+"verze Debianu. Pokud budete pokračovat bez modulů jádra, instalace "
+"pravděpodobně nebude fungovat."
