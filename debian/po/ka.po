@@ -3,37 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Georgian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Aiet Kolkhi <aietkolkhi@gmail.com>, 2005, 2006, 2007, 2008.
-#
-# This file is maintained by Aiet Kolkhi <aietkolkhi@gmail.com>
-#
-# Includes contributions by Malkhaz Barkalaza <malxaz@gmail.com>,
-# Alexander Didebulidze <didebuli@in.tum.de>, Vladimer Sichinava <vlsichinava@gmail.com>
-# Taya Kharitonashvili <taya13@gmail.com>, Gia Shervashidze - www.gia.ge
-#
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Aiet Kolkhi <aietkolkhi@gmail.com>, 2008.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer.2006071\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2011-03-01 12:49+0400\n"
-"Last-Translator: Aiet Kolkhi <aietkolkhi@gmail.com>\n"
-"Language-Team: Georgian\n"
-"Language: ka\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-
 #. Type: multiselect
 #. Description
 #. :sl2:
@@ -42,7 +11,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr "ჩასატვირთი ინსტალატორის კომპონენტებია:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -54,9 +23,6 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
-"ინსტალაციისათვის აუცილებელი ყველა კომპონენტი უკვე მონიშნულია. ინსტალაციის "
-"სხვა კომპონენტებს დაბალი პრიორიტეტი აქვთ და აუცილებელი არ არის, თუმცა "
-"ზოგიერთ მომხმარებელს შესაძლოა გამოადგეს."
 
 #. Type: multiselect
 #. Description
@@ -69,8 +35,6 @@ msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
 msgstr ""
-"გაითვალისწინეთ, რომ თუ ისეთ კომპონენტს ამოირჩევთ, რომელიც სხვა კომოინენტს "
-"საჭიროებს, ეს კომპონენტები ამტომატურად მოინიშნება."
 
 #. Type: multiselect
 #. Description
@@ -83,11 +47,6 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
-"მეხსიერების დასაზოგად, სტანდარტულად მონიშნულია მხოლოდ ის კომპონენტები, "
-"რომელთა ინსტალაციისათვის აუცილებელია. ინსტალაციის სხვა კომპონენტები ძირითადი "
-"სისტემის დასაყენებლად აუცილებელი არ არის, თუმცა შესაძლოა ზოგიერთი დაგჭირდეთ, "
-"განსაკუთრებით კერნელის ზოგიერთი მოდული. ასე რომ, გულდასით გადახედეთ სიას და "
-"ამოირჩიეთ სასურველი კომპონენტები."
 
 #. Type: text
 #. Description
@@ -96,7 +55,7 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:3001
 msgid "Loading additional components"
-msgstr "დამატებითი კომპონენტების ჩატვირთვა"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -105,7 +64,7 @@ msgstr "დამატებითი კომპონენტების �
 #. :sl1:
 #: ../anna.templates:4001
 msgid "Retrieving ${PACKAGE}"
-msgstr "${PACKAGE} მიღება"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -114,14 +73,14 @@ msgstr "${PACKAGE} მიღება"
 #. :sl1:
 #: ../anna.templates:5001
 msgid "Configuring ${PACKAGE}"
-msgstr "${PACKAGE}-ის კონფიგურაცია"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr "ინსტალაციის კომპონენტის გამოძახება ვერ მოხერხდა"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -129,15 +88,13 @@ msgstr "ინსტალაციის კომპონენტის გ�
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
-"${PACKAGE} პაკეტის გამოძახება გაურკვეველი მიზეზების გამო შეფერხდა. პროცესი "
-"შეწყდა."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr "გსურთ ინსტალაციის გაგრძელება კკერნელის მოდულების გამოძახების გარეშე?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -148,9 +105,6 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
-"კერნელის მოდულები ვერ მოიძებნა. ეს საარაუდოდ ინსტალაციის პროგრამის მიერ "
-"გამოყენებული კერნელის ვერსიისა და არქივში არსებული კერნელის შეუთავსებლობის "
-"ბრალია."
 
 #. Type: boolean
 #. Description
@@ -161,6 +115,3 @@ msgid ""
 "choosing to install a different version of Debian. The install will probably "
 "fail to work if you continue without kernel modules."
 msgstr ""
-"თუ თქვენ ინსტალაციას მირორიდან ახორციელდებთ, თქვენ შეგიძლიათ ამ პრობლემის "
-"მოგვარება, თუ Debian-ის სხვა ვერსიის დააყენებთ. თუ კერნელის მოდულების გარეშე "
-"ინსტალაციას გააგრძელებთ, სავარაუდოდ საინსტალაციო პროგამა ვერ იმუშავებს."

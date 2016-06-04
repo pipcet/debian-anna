@@ -3,41 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of lv.po to Latvian
-# Latvian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Translations from iso-codes:
-# Copyright (C) Free Software Foundation, Inc., 2001,2003.
-# Translations from KDE:
-# Andris Maziks <andzha@latnet.lv>
-#
-#
-# Aigars Mahinovs <aigarius@debian.org>, 2006, 2008.
-# Viesturs Zarins <viesturs.zarins@mii.lu.lv>, 2008.
-# Aigars Mahinovs <aigarius@debian.org>, 2006.
-# Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
-# Free Software Foundation, Inc., 2002,2004.
-# Juris Kudiņš <cooker@inbox.lv>, 2001.
-# Rihards Priedītis <rprieditis@gmail.com>, 2009, 2010.
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012, 2013.
-# Peteris Krisjanis <pecisk@gmail.com>, 2008, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: lv\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
-"Language: lv\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2)\n"
-
 #. Type: multiselect
 #. Description
 #. :sl2:
@@ -46,7 +11,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr "Ielādējamās instalatora komponentes:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -58,10 +23,6 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
-"Instalēšanas procesa pabeigšanai nepieciešamās instalatora komponentes tiks "
-"automātiski ielādētas un nav šeit uzrādītas. Citas (neobligātas) instalatora "
-"komponentes ir redzamas zemāk. Tās, visticamāk, nav nepieciešamas, bet "
-"varētu būt dažiem lietotājiem interesantas."
 
 #. Type: multiselect
 #. Description
@@ -74,8 +35,6 @@ msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
 msgstr ""
-"Ņemiet vērā — ja izvēlēsities komponenti, kurai ir nepieciešamas citas, tās "
-"arī tiks automātiski ielādētas."
 
 #. Type: multiselect
 #. Description
@@ -88,11 +47,6 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
-"Lai taupītu atmiņu, pēc noklusējuma ir izvēlētas tikai tās komponentes, kas "
-"noteikti nepieciešamas instalēšanai. Pārējās instalatora komponentes pamata "
-"instalācijā nav nepieciešamas, taču jums kādas no tām varētu būt vajadzīgas. "
-"It īpaši tas attiecas uz dažiem kodola moduļiem. Rūpīgi pārskatiet "
-"komponenšu sarakstu un izvēlieties sev vajadzīgās."
 
 #. Type: text
 #. Description
@@ -101,7 +55,7 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:3001
 msgid "Loading additional components"
-msgstr "Ielādē papildu komponentes"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -110,7 +64,7 @@ msgstr "Ielādē papildu komponentes"
 #. :sl1:
 #: ../anna.templates:4001
 msgid "Retrieving ${PACKAGE}"
-msgstr "Saņem ${PACKAGE}"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -119,14 +73,14 @@ msgstr "Saņem ${PACKAGE}"
 #. :sl1:
 #: ../anna.templates:5001
 msgid "Configuring ${PACKAGE}"
-msgstr "Konfigurē ${PACKAGE}"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr "Neizdevās ielādēt instalatora komponenti"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -134,14 +88,13 @@ msgstr "Neizdevās ielādēt instalatora komponenti"
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
-"Moduļa ${PACKAGE} ielāde nezināmu iemeslu dēļ nav izdevusies. Pārtrauc darbu."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr "Turpināt instalēšanu, neielādējot kodola moduļus?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -152,8 +105,6 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
-"Kodola moduļi nav atrasti. Iespējamais iemesls ir instalatora izmantotās un "
-"arhīvā pieejamās kodola versiju nesakritība."
 
 #. Type: boolean
 #. Description
@@ -164,6 +115,3 @@ msgid ""
 "choosing to install a different version of Debian. The install will probably "
 "fail to work if you continue without kernel modules."
 msgstr ""
-"Ja instalējat no spoguļservera, jūs šo problēmu varat apiet, izvēloties "
-"instalēt citu Debian versiju. Ja turpināsiet bez kodola moduļiem, "
-"instalēšana visdrīzāk nebūs sekmīga."

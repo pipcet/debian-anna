@@ -3,39 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Korean messages for debian-installer.
-# Copyright (C) 2003,2004,2005,2008 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Changwoo Ryu <cwryu@debian.org>, 2010, 2011, 2012, 2014, 2015.
-#
-# Translations from iso-codes:
-# Copyright (C)
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Changwoo Ryu <cwryu@debian.org>, 2004, 2008, 2009, 2010, 2011.
-#   Copyright (C) 2000 Free Software Foundation, Inc.
-#   Eungkyu Song <eungkyu@sparcs.org>, 2001.
-#   Free Software Foundation, Inc., 2001,2003
-#   Jaegeum Choe <baedaron@hananet.net>, 2001.
-#   (translations from drakfw)
-#   Kang, JeongHee <Keizi@mail.co.kr>, 2000.
-#   Sunjae Park <darehanl@gmail.com>, 2006-2007.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team:  Korean <debian-l10n-korean@lists.debian.org>\n"
-"Language: ko\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: multiselect
 #. Description
 #. :sl2:
@@ -44,7 +11,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr "읽어들일 설치 프로그램 컴포넌트:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -56,9 +23,6 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
-"설치프로그램은 필요한 컴포넌트를 대부분 자동으로 읽어들이므로, 여기에 표시하"
-"지는 않습니다. 중요도가 낮아 선택사항인 컴포넌트는 여기에 표시합니다. 이 사항"
-"이 필요한 사용자는 많지 않겠지만, 일부 사용자에게는 중요할 수 있습니다."
 
 #. Type: multiselect
 #. Description
@@ -71,8 +35,6 @@ msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
 msgstr ""
-"선택한 컴포넌트에 또 다른 컴포넌트가 필요한 경우, 그 필요한 컴포넌트를 자동으"
-"로 읽어들입니다."
 
 #. Type: multiselect
 #. Description
@@ -85,10 +47,6 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
-"메모리를 절약하기 위해 설치프로그램은 꼭 필요한 컴포넌트만 선택합니다. 기본설"
-"치에 필요하지는 않지만 일부 사용자에게 필요한 컴포넌트가 있을 수 있습니다. 특"
-"히 기본적으로 선택하지 않는 커널 모듈도 있으므로 목록을 잘 보고 필요한 컴포넌"
-"트를 선택하십시오."
 
 #. Type: text
 #. Description
@@ -97,7 +55,7 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:3001
 msgid "Loading additional components"
-msgstr "추가 컴포넌트를 읽어들이는 중입니다"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -106,7 +64,7 @@ msgstr "추가 컴포넌트를 읽어들이는 중입니다"
 #. :sl1:
 #: ../anna.templates:4001
 msgid "Retrieving ${PACKAGE}"
-msgstr "${PACKAGE} 패키지를 가져오는 중입니다"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -115,14 +73,14 @@ msgstr "${PACKAGE} 패키지를 가져오는 중입니다"
 #. :sl1:
 #: ../anna.templates:5001
 msgid "Configuring ${PACKAGE}"
-msgstr "${PACKAGE} 패키지를 설정하는 중입니다"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr "설치 프로그램 컴포넌트를 읽어들이는데 실패했습니다"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -130,14 +88,13 @@ msgstr "설치 프로그램 컴포넌트를 읽어들이는데 실패했습니�
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
-"알 수 없는 이유로 ${PACKAGE} 패키지를 읽어들이는데 실패했습니다. 중지합니다."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr "커널 모듈을 읽어들이지 않고 계속 설치하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -148,8 +105,6 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
-"커널 모듈이 없습니다. 설치 프로그램의 버전과 아카이브의 커널 버전이 맞지 않아"
-"서 그럴 것입니다."
 
 #. Type: boolean
 #. Description
@@ -160,6 +115,3 @@ msgid ""
 "choosing to install a different version of Debian. The install will probably "
 "fail to work if you continue without kernel modules."
 msgstr ""
-"미러 사이트에서 설치하시는 거라면, 다른 버전의 데비안을 설치하면 이 문제를 피"
-"해갈 수도 있습니다. 커널 모듈 없이 계속하신다면 아마도 설치가 실패할 것입니"
-"다."
