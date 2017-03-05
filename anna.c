@@ -318,8 +318,8 @@ install_modules(di_packages *status, di_packages *packages) {
 					}
 				}
 
-				if (! md5sum(package->md5sum, dest_file)) {
-					di_log(DI_LOG_LEVEL_WARNING, "bad md5sum");
+				if (! sha256sum(package->sha256, dest_file)) {
+					di_log(DI_LOG_LEVEL_WARNING, "bad sha256sum");
 					if (!quiet)
 						/* error handling may use a progress bar, so stop the current one */
 						debconf_progress_stop(debconf);

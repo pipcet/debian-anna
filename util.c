@@ -224,23 +224,26 @@ int load_templates (di_packages *packages) {
 }
 #endif /* LOADTEMPLATES */
 
-/* Check whether the md5sum of file matches sum. If not, return 0. */
-int md5sum(const char *sum, const char *file) {
+/* Length of a SHA256 hash in hex representation */
+#define SHA256_HEX_LENGTH 64
+
+/* Check whether the sha256sum of file matches sum. If not, return 0. */
+int sha256sum(const char *sum, const char *file) {
 	FILE *fp;
 	char line[1024];
 
-	/* Trivially true if the Packages file doesn't have md5sum lines */
+	/* Trivially true if the Packages file doesn't have sha256sum lines */
 	if (sum == NULL)
 		return 1;
-	snprintf(line, sizeof(line), "/usr/bin/md5sum %s", file);
+	snprintf(line, sizeof(line), "/usr/bin/sha256sum %s", file);
 	fp = popen(line, "r");
 	if (fp == NULL)
 		return 0;
 	if (fgets(line, sizeof(line), fp) != NULL) {
 		pclose(fp);
-		if (strlen(line) < 32)
+		if (strlen(line) < SHA256_HEX_LENGTH)
 			return 0;
-		line[32] = '\0';
+		line[SHA256_HEX_LENGTH] = '\0';
 		return !strcmp(line, sum);
 	}
 	pclose(fp);

@@ -1,6 +1,10 @@
 anna (1.58) UNRELEASED; urgency=medium
 
+  [ Bastian Blank ]
   * Build-depend against new enough version of libdebian-installer4-dev.
+
+  [ Steven Chamberlain ]
+  * Use SHA256 for verification.  (closes: #856211)
 
  -- Bastian Blank <waldi@debian.org>  Sun, 05 Mar 2017 11:33:30 +0100
 
