@@ -1,4 +1,4 @@
-anna (1.58) UNRELEASED; urgency=medium
+anna (1.58) unstable; urgency=medium
 
   [ Bastian Blank ]
   * Build-depend against new enough version of libdebian-installer4-dev.
@@ -6,7 +6,7 @@ anna (1.58) UNRELEASED; urgency=medium
   [ Steven Chamberlain ]
   * Use SHA256 for verification.  (closes: #856211)
 
- -- Bastian Blank <waldi@debian.org>  Sun, 05 Mar 2017 11:33:30 +0100
+ -- Bastian Blank <waldi@debian.org>  Sun, 05 Mar 2017 12:26:20 +0100
 
 anna (1.57) unstable; urgency=medium
 
