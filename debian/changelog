@@ -1,3 +1,11 @@
+anna (1.59) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Greek (el.po) by Sotirios Vrachas
+  * Swedish (sv.po) by Anders Jonsson
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 22 Nov 2017 07:28:51 +0100
+
 anna (1.58) unstable; urgency=medium
 
   [ Bastian Blank ]
