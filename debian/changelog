@@ -1,3 +1,11 @@
+anna (1.60) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Norwegian Nynorsk (nn.po) by Allan Nordhøy
+  * Traditional Chinese (zh_TW.po) by Chang-Chia Tseng
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 25 Nov 2017 08:35:25 +0100
+
 anna (1.59) unstable; urgency=medium
 
   [ Updated translations ]
