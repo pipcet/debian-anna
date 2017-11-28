@@ -1,3 +1,10 @@
+anna (1.61) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Lithuanian (lt.po) by Rimas Kudelis
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 28 Nov 2017 19:10:52 +0100
+
 anna (1.60) unstable; urgency=medium
 
   [ Updated translations ]
