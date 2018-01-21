@@ -9,17 +9,17 @@
 #
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2013-09-12 16:35+0500\n"
+"PO-Revision-Date: 2018-01-21 20:21+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
-"Language: Tajik\n"
+"Language: tg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -107,7 +107,7 @@ msgstr "Бозёбӣ кардани ${PACKAGE}"
 #. :sl1:
 #: ../anna.templates:5001
 msgid "Configuring ${PACKAGE}"
-msgstr "Конфигуратсия кардани ${PACKAGE}"
+msgstr "Танзим кардани ${PACKAGE}"
 
 #. Type: error
 #. Description
@@ -141,8 +141,8 @@ msgid ""
 "available in the archive."
 msgstr ""
 "Ягон модули ҳаста ёфт нашудааст. Эҳтимол аст, ки ҳастаи истифодашуда дар ин "
-"версияи насбкунанда ва версияи ҳастаи дастрас дар бойгонӣ ба ҳамдигар "
-"мутобиқат намекунанд."
+"гунаи насбкунанда ва гунаи ҳастаи дастрас дар бойгонӣ ба ҳамдигар мутобиқат "
+"намекунанд."
 
 #. Type: boolean
 #. Description
@@ -154,5 +154,5 @@ msgid ""
 "fail to work if you continue without kernel modules."
 msgstr ""
 "Агар аз оина насб кунед, метавонед ин мушкилиро тавассути интихоби насби "
-"версияи дигари Debian ҳал кунед. Мумкин аст, ки агар шумо бе модулҳои ҳаста "
+"гунаи дигари Debian ҳал кунед. Мумкин аст, ки агар шумо бе модулҳои ҳаста "
 "идома диҳед, насбкунанда қатъ карда мешавад."
