@@ -1,3 +1,12 @@
+anna (1.66) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Serbian (sr.po) by Слободан Симић(Slobodan Simić)
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 10 Feb 2018 08:20:21 +0100
+
 anna (1.65) unstable; urgency=medium
 
   [ Updated translations ]
