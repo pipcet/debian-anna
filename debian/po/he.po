@@ -28,14 +28,14 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2018-02-06 08:37+0000\n"
+"PO-Revision-Date: 2018-06-14 08:38+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Type: multiselect
 #. Description
@@ -45,7 +45,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr "רכיבי תוכנית התקנה לטעינה:"
+msgstr "רכיבי תכנית התקנה לטעינה:"
 
 #. Type: multiselect
 #. Description
@@ -57,9 +57,9 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
-"כל הרכיבים של תוכנית ההתקנה הנדרשים כדי לסיים את ההתקנה יטענו אוטומטית ואינם "
-"רשומים כאן. רכיבים נוספים של תוכנית ההתקנה מופיעים למטה. לרוב הם אינם "
-"נחוצים, אך יכולים להיות רלוונטיים לחלק מהמשתמשים."
+"כל רכיבי תכנית ההתקנה שדרושים לטובת ההתקנה ייטענו אוטומטית ואינם מופיעים "
+"כאן. חלק מרכיבי ההתקנה הנוספים (כרשות) מופיעים להלן. סביר להניח שהם אינם "
+"נחוצים, אך הם עשויים לעניין כל מיני משתמשים."
 
 #. Type: multiselect
 #. Description
@@ -71,7 +71,7 @@ msgstr ""
 msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
-msgstr "שים לב שאם אתה בוחר רכיב שדורש רכיבים אחרים, הם יטענו בנוסף."
+msgstr "לתשומת לבך: בחירת רכיב שדורשת התקנות נוספות תוביל לטעינתן."
 
 #. Type: multiselect
 #. Description
@@ -84,9 +84,10 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
-"כדי לחסוך בזיכרון, רק רכיבים שדרושים להתקנה נבחרים כברירת מחדל. רכיבים אחרים "
-"לא נחוצים להתקנה בסיסית, אבל אולי תצטרך את חלקם, במיוחד מספר מודולים לקרנל, "
-"כך שכדאי לעבור על הרשימה בקפידה ולבחור את הרכיבים שאתה צריך."
+"לצורך חסכון בזיכרון, רק רכיבים נחוצים בהכרח נבחרים כבררת מחדל. שאר רכיבי "
+"ההתקנה אינם נחוצים להתקנה בסיסית, אך יתכן שיש לך צורך בחלק מהם, במיוחד "
+"מודולים מסוימים של הליבה, לכן מומלץ לעבור על הרשימה בקפידה ולבחור את הרכיבים "
+"הנחוצים לך."
 
 #. Type: text
 #. Description
@@ -113,28 +114,28 @@ msgstr "החבילה ${PACKAGE} מתקבלת"
 #. :sl1:
 #: ../anna.templates:5001
 msgid "Configuring ${PACKAGE}"
-msgstr "ההגדרה של ${PACKAGE} מתבצעת"
+msgstr "מתבצעת הגדרה של ${PACKAGE}"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr "כישלון בטעינת רכיב של תוכנית ההתקנה"
+msgstr "טעינת רכיב של תכנית ההתקנה נכשלה"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
-msgstr "טעינת ${PACKAGE} נכשלה מסיבה לא ברורה. מוותר."
+msgstr "טעינת ${PACKAGE} נכשלה מסיבה לא ברורה. התהליך מבוטל."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr "להמשיך את ההתקנה בלי לטעון מודולי קרנל?"
+msgstr "להמשיך את ההתקנה בלי לטעון מודולי ליבה?"
 
 #. Type: boolean
 #. Description
@@ -145,8 +146,8 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
-"לא נמצאו מודולי קרנל. זאת כנראה בגלל אי תאימות בין הקרנל שנמצא בשימוש על ידי "
-"גרסה זו של תוכנית ההתקנה והקרנל שנמצא בארכיון."
+"לא נמצאו מודולי ליבה. כנראה עקב חוסר התאמה בין הליבה שבשימוש בגרסה זו של "
+"תכנית ההתקנה לבין גרסת הליבה שזמינה בארכיון."
 
 #. Type: boolean
 #. Description
@@ -157,5 +158,6 @@ msgid ""
 "choosing to install a different version of Debian. The install will probably "
 "fail to work if you continue without kernel modules."
 msgstr ""
-"אם אתה מתקין מאתר מראה, תוכל לעקוף בעיה זאת על ידי בחירה בהתקנת גרסה אחרת של "
-"דביאן. ההתקנה כנראה תיכשל אם תמשיך ללא מודולי קרנל."
+"אם התקנה זו מתבצעת דרך אתר מראה, ניתן לעקוף בעיה זו על ידי בחירה בהתקנה של "
+"גרסה אחרת של דביאן. ההתקנה כנראה תפסיק לפעול אם בחירתך תהיה להמשיך ללא "
+"מודולי ליבה."
