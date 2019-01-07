@@ -1,3 +1,9 @@
+anna (1.70) UNRELEASED; urgency=medium
+
+  * Remove trailing whitespaces from changelog file, to fix lintian tag.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 07 Jan 2019 22:25:08 +0100
+
 anna (1.69) unstable; urgency=medium
 
   * Team upload
@@ -821,7 +827,7 @@ anna (1.14) unstable; urgency=low
   * Make 'anna-install <foo>-modules' (for any name provided by a kernel
     module) work when doing immediate installation as well as when queueing.
 
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Greek, Modern (1453-) (el.po) by Greek Translation Team
     - Hebrew (he.po) by Lior Kaplan
@@ -856,7 +862,7 @@ anna (1.11) unstable; urgency=low
     and allow the user to de-select them, providing more control in lowmem
     installs and other situations. Closes: #219888
 
-  * Updated translations: 
+  * Updated translations:
     - Arabic (ar.po) by Ossama M. Khayat
     - Bulgarian (bg.po) by Ognyan Kulev
     - Catalan (ca.po) by Guillem Jover
@@ -895,7 +901,7 @@ anna (1.09) unstable; urgency=low
   * Joey Hess
     - Switch from using the debconf template to get the subarch, to running
       the archdetect command.
-  * Updated translations: 
+  * Updated translations:
     - Greek, Modern (1453-) (el.po) by Kostas Papadimas
     - Basque (eu.po) by Piarres Beobide
     - Hebrew (he.po) by Lior Kaplan
@@ -945,7 +951,7 @@ anna (1.07) unstable; urgency=low
     - Cache Packages file for default retriever (except in low memory mode)
       to avoid expensive re-retreival.
     - Add a README.
-  * Updated translations: 
+  * Updated translations:
     - Greek, Modern (1453-) (el.po) by Greek Translation Team
     - Spanish (es.po) by Javier Fernandez-Sanguino Peña
     - Gallegan (gl.po) by Jacobo Tarrio
@@ -971,7 +977,7 @@ anna (1.06) unstable; urgency=low
 
 anna (1.05) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Catalan (ca.po) by Jordi Mallach
     - Czech (cs.po) by Miroslav Kure
@@ -1010,7 +1016,7 @@ anna (1.05) unstable; urgency=low
 
 anna (1.04) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Arabic (ar.po) by Ossama M. Khayat
     - Bulgarian (bg.po) by Ognyan Kulev
     - Catalan (ca.po) by Jordi Mallach
@@ -1052,7 +1058,7 @@ anna (1.03) unstable; urgency=low
       udebs available matching the kernel. Closes: #258823
     - Modify its error handling to not abuse retreiver error protocol.
     - Add an error message for this case, though it could be better.
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Catalan (ca.po) by Jordi Mallach
     - Czech (cs.po) by Miroslav Kure
@@ -1086,7 +1092,7 @@ anna (1.02) unstable; urgency=low
   * Colin Watson
     - Don't crash if the Filename: field is somehow missing (e.g. due to
       leaving one's brain in the fridge while hacking Packages by hand ...).
-  * Updated translations: 
+  * Updated translations:
     - Arabic (ar.po) by Ossama M. Khayat
     - Bulgarian (bg.po) by Ognyan Kulev
     - Bosnian (bs.po) by Safir Šećerović
@@ -1125,19 +1131,19 @@ anna (1.01) unstable; urgency=low
     - Rename templates to anna.templates (easier to handle in general l10n
       files)
     - Correct typos in English templates
-  * Updated translations: 
+  * Updated translations:
     - Catalan (ca.po) by Jordi Mallach
     - Czech (cs.po) by Miroslav Kure
     - Danish (da.po) by Claus Hindsgaul
     - German (de.po) by Dennis Stampfer
     - Greek, Modern (1453-) (el.po) by Greek Translation Team
-    - Basque (eu.po) by 
+    - Basque (eu.po) by
     - French (fr.po) by French Team
     - Italian (it.po) by Giuseppe Sacco
     - Japanese (ja.po) by Kenshi Muto
     - Lithuanian (lt.po) by Kęstutis Biliūnas
     - Latvian (lv.po) by Aigars Mahinovs
-    - Bøkmal, Norwegian (nb.po) by 
+    - Bøkmal, Norwegian (nb.po) by
     - Dutch (nl.po) by Bart Cornelis
     - Polish (pl.po) by Bartosz Fenski
     - Portuguese (pt.po) by Miguel Figueiredo
@@ -1150,7 +1156,7 @@ anna (1.01) unstable; urgency=low
 
 anna (1.00) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Arabic (ar.po) by Abdulaziz Al-Arfaj
     - Danish (da.po) by Claus Hindsgaul
     - German (de.po) by Dennis Stampfer
@@ -1188,7 +1194,7 @@ anna (0.060) unstable; urgency=low
 
 anna (0.059) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Bokmal, Norwegian (nb.po) by Bjørn Steensrud
     - Norwegian Nynorsk (nn.po) by Håvard Korsvoll
     - Vietnamese (vi.po) by Vu Quang Trung
@@ -1197,7 +1203,7 @@ anna (0.059) unstable; urgency=low
 
 anna (0.058) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Hebrew (he.po) by Lior Kaplan
     - Indonesian (id.po) by Parlin Imanuel Toh
     - Romanian (ro.po) by Eddy Petrisor
@@ -1212,7 +1218,7 @@ anna (0.057) unstable; urgency=low
     - Remove myself as uploader.  I do not really understand anna, and
       will leave this package alone.
     - Made sure changelog is UTF-8.
-  * Updated translations: 
+  * Updated translations:
     - Gallegan (gl.po) by Héctor Fernández López
     - Polish (pl.po) by Bartosz Fenski
     - Turkish (tr.po) by Osman Yüksel
@@ -1230,7 +1236,7 @@ anna (0.056) unstable; urgency=low
     - Add logging.
     - Remove templates that are not used now that all retrievers have error
       handling.
-  * Updated translations: 
+  * Updated translations:
     - Basque (eu.po) by Piarres Beobide Egaña
     - Romanian (ro.po) by Eddy Petrisor
     - Swedish (sv.po) by André Dahlqvist
@@ -1240,7 +1246,7 @@ anna (0.056) unstable; urgency=low
 
 anna (0.055) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Hebrew (he.po) by Lior Kaplan
     - Indonesian (id.po) by Parlin Imanuel Toh
     - Traditional Chinese (zh_TW.po) by Tetralet
@@ -1358,7 +1364,7 @@ anna (0.048) unstable; urgency=low
 
 anna (0.047) unstable; urgency=low
 
-  * Bart Cornelis 
+  * Bart Cornelis
     - Merged Norwegian Bokmael (nb.po) translation from skolelinux-cvs
   * Peter Mann
     - Updated Slovak translations
@@ -1408,9 +1414,9 @@ anna (0.045) unstable; urgency=low
   * Konstantinos Margaritis
     - Initial Greek translation (el.po)
   * Bart Cornelis
-    - incorporated translation improvements send in by Pieter-Paul Spiertz 
+    - incorporated translation improvements send in by Pieter-Paul Spiertz
       and Geert Stappers
-  * Safir Šećerović 
+  * Safir Šećerović
     - Updated Bosnian translation.
   * Jordi Mallach
     - Update Catalan translation.
@@ -1649,7 +1655,7 @@ anna (0.032) unstable; urgency=low
 
 anna (0.031) unstable; urgency=low
 
-  * Check return code of GET mirror/distribution, because the template 
+  * Check return code of GET mirror/distribution, because the template
     will not always exist. Don't pass random debconf error messages through
     system. Fixes floppy retreiver.
 
@@ -1920,7 +1926,7 @@ anna (0.009) unstable; urgency=low
   * Switch to using the less error-prone asprintf instead of malloc + sprintf.
     Third, thanks to Martin.
   * Add preliminary net-only menutest script
-  Martin Sjögren 
+  Martin Sjögren
     - Use di_pkg_parse from libd-i.
     - Improve the description of the anna/retriever template by using the
       package descriptions of the retrievers.
