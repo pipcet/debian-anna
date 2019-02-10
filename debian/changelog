@@ -1,8 +1,12 @@
-anna (1.70) UNRELEASED; urgency=medium
+anna (1.70) unstable; urgency=medium
+  * Team upload
 
   * Remove trailing whitespaces from changelog file, to fix lintian tag.
 
- -- Holger Wansing <hwansing@mailbox.org>  Mon, 07 Jan 2019 22:25:08 +0100
+  [ Updated translations ]
+  * Finnish (fi.po) by Juhani Numminen
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 10 Feb 2019 10:26:59 +0100
 
 anna (1.69) unstable; urgency=medium
 
