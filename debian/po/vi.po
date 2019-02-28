@@ -9,16 +9,19 @@
 # Jean Christophe André <progfou@gmail.com>
 # Vũ Quang Trung <vu.quang.trung@auf.org>
 # Trịnh Minh Thành <tmthanh@yahoo.com>
+# Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
+# Hai-Nam Nguyen <hainam@jcisio.com>, 2012
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer Level 1\n"
+"Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2010-09-28 18:01+0930\n"
-"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
-"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"PO-Revision-Date: 2019-02-27 14:34+0700\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +36,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr "Các thành phần cài đặt cần nạp:"
+msgstr "Các thành phần cài đặt cần tải:"
 
 #. Type: multiselect
 #. Description
@@ -45,7 +48,7 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
-"Mọi thành phần của bản cài đặt cần thiết để cài đặt xong sẽ được nạp tự "
+"Mọi thành phần của bản cài đặt cần thiết để cài đặt xong sẽ được tải tự "
 "động, cũng không được liệt kê ở đây. Một số thành phần cài đặt khác (kiểu "
 "tùy chọn) được hiển thị bên dưới. Rất có thể là chúng không cần thiết, nhưng "
 "có thể đáng quan tâm cho một số người dùng."
@@ -113,21 +116,21 @@ msgstr "Đang cấu hình gói ${PACKAGE}"
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr "Lỗi nạp thành phần cài đặt"
+msgstr "Gặp lỗi khi tải thành phần cài đặt"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
-msgstr "Việc nạp gói ${PACKAGE} bị lỗi vì lý do không rõ nên hủy bỏ."
+msgstr "Việc tải gói ${PACKAGE} bị lỗi vì lý do không rõ nên hủy bỏ."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr "Tiếp tục cài đặt mà không nạp những mô-đun hạt nhân không?"
+msgstr "Tiếp tục cài đặt mà không tải những mô-đun hạt nhân không?"
 
 #. Type: boolean
 #. Description
@@ -151,7 +154,7 @@ msgid ""
 "choosing to install a different version of Debian. The install will probably "
 "fail to work if you continue without kernel modules."
 msgstr ""
-"Nến bạn đang cài đặt từ máy nhân bản (mirror), có thể chỉnh sửa vân đề này "
+"Nến bạn đang cài đặt từ máy bản sao (mirror), có thể chỉnh sửa vân đề này "
 "bằng cách chọn cài đặt một phiên bản Debian khác. Việc cài đặt này rất có "
 "thể sẽ không hoặt động được nếu bạn tiếp tục mà không có những mô-đun hạt "
 "nhân."
