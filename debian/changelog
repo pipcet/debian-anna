@@ -1,3 +1,10 @@
+anna (1.72) UNRELEASED; urgency=medium
+
+  * Remove Christian Perrier from Uploaders, with many thanks for all
+    his contributions over the years!
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:27:41 +0200
+
 anna (1.71) unstable; urgency=medium
   * Team upload
 
