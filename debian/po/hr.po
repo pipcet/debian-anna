@@ -15,22 +15,23 @@
 #   Krunoslav Gernhard, 2004
 #   Vladimir Vuksan <vuksan@veus.hr>, 2000.
 #   Vlatko Kosturjak, 2001
-# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013.
+#   Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013, 2014, 2015.
+#   Valentin Vidic <Valentin.Vidic@CARNet.hr>, 2017
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2013-04-17 18:08+0200\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
+"PO-Revision-Date: 2019-07-04 17:02+0000\n"
+"Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #. Type: multiselect
 #. Description
@@ -40,7 +41,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr "Instalacijski dijelovi za učitavanje:"
+msgstr "Instalacijske komponente za učitavanje:"
 
 #. Type: multiselect
 #. Description
@@ -52,10 +53,10 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
-"Svi dijelovi instalacijskog programa potrebni za završetak instalacije će se "
-"automatski učitati i oni nisu na ovom popisu. Ostali, opcionalni dijelovi "
-"instalacijskog programa su prikazani ispod. Oni vjerojatno nisu neophodni, "
-"ali mogu biti zanimljivi nekim korisnicima."
+"Sve komponente instalacijskog programa potrebne za završetak instalacije "
+"biti će automatski učitane i one nisu na ovom popisu. Ostale (neobavezne) "
+"komponente instalacijskog programa su prikazane ispod. One vjerojatno nisu "
+"potrebne, ali mogu biti zanimljive nekim korisnicima."
 
 #. Type: multiselect
 #. Description
@@ -68,8 +69,8 @@ msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
 msgstr ""
-"Obratite pozornost: ako izaberete dio koji zahtijeva druge dijelove, i ti će "
-"se dijelovi učitati."
+"Uzmite u obzir da ako odaberete komponentu koja zahtijeva druge komponente, "
+"te druge komponente će biti isto učitane."
 
 #. Type: multiselect
 #. Description
@@ -82,11 +83,11 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
-"Zbog uštede memorije, samo oni dijelovi instalacije koji su sigurno potrebni "
-"za instalaciju su izabrani za učitavanje. Ostali popisani dijelovi nisu "
-"neophodni za osnovnu instalaciju, ali ćete možda ipak trebati neke od njih, "
+"Zbog uštede memorije, samo oni moduli instalacije koji su sigurno potrebni "
+"za instalaciju su odabrani za učitavanje. Ostale popisane komponente nisu "
+"neophodne za osnovnu instalaciju, ali ćete možda ipak trebati neke od njih, "
 "osobito pojedine module za kernel. Zato pozorno pregledajte popis i "
-"izaberite dijelove koji su vam potrebni."
+"odaberite komponente koje su vam potrebne."
 
 #. Type: text
 #. Description
@@ -104,7 +105,7 @@ msgstr "Učitavanje dodatnih komponenti"
 #. :sl1:
 #: ../anna.templates:4001
 msgid "Retrieving ${PACKAGE}"
-msgstr "Dobavljam ${PACKAGE}"
+msgstr "Preuzimam ${PACKAGE}"
 
 #. Type: text
 #. Description
@@ -120,21 +121,21 @@ msgstr "Podešavam ${PACKAGE}"
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr "Učitavanje instalacijskog dijela nije uspjelo"
+msgstr "Neuspjelo učitavanje instalacijskih komponenti"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
-msgstr "Učitavanje ${PACKAGE} nije uspjelo zbog nepoznatih razloga. Prekidam."
+msgstr "Učitavanje ${PACKAGE} neuspjelo zbog nepoznatih razloga. Prekidam."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr "Nastavi instalaciju bez učitavanja modula za kernel?"
+msgstr "Nastavi instalaciju bez učitavanja kernelovih modula?"
 
 #. Type: boolean
 #. Description
@@ -145,8 +146,8 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
-"Nema modula za kernel. Razlog tomu je vjerojatno nepodudarnost inačica "
-"jezgre koju koristi instalacija i jezgre dostupne u arhivi."
+"Nema pronađenih kernelovih modula. Razlog tomu je vjerojatno nepodudarnost "
+"inačica kernela kojeg koristi instalacija i kernela dostupnog u arhivi."
 
 #. Type: boolean
 #. Description
@@ -159,4 +160,4 @@ msgid ""
 msgstr ""
 "Ako instalirate sa zrcalnog poslužitelja, možete riješiti ovaj problem "
 "instalirajući neku drugu inačicu Debiana. Instalacija vjerojatno neće "
-"uspjeti ako nastavite bez modula za jezgru."
+"uspjeti ako nastavite bez kernelovih modula."
