@@ -1,11 +1,18 @@
-anna (1.72) UNRELEASED; urgency=medium
+anna (1.72) unstable; urgency=medium
 
+  * Team upload
+
+  [ Cyril Brulebois ]
   * Remove Christian Perrier from Uploaders, with many thanks for all
     his contributions over the years! (Closes: #927531)
 
- -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:27:41 +0200
+  [ Updated translations ]
+  * Croatian (hr.po) by gogogogi
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 19 Oct 2019 22:52:25 +0200
 
 anna (1.71) unstable; urgency=medium
+
   * Team upload
 
   [ Updated translations ]
@@ -14,6 +21,7 @@ anna (1.71) unstable; urgency=medium
  -- Holger Wansing <hwansing@mailbox.org>  Tue, 05 Mar 2019 19:57:57 +0100
 
 anna (1.70) unstable; urgency=medium
+
   * Team upload
 
   * Remove trailing whitespaces from changelog file, to fix lintian tag.
