@@ -17,8 +17,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2018-10-07 18:30+0000\n"
 "Last-Translator: Nayan Nakhare <nayannakhare@rediffmail.com>\n"
 "Language-Team: CDAC_DI\n"
@@ -123,14 +123,14 @@ msgstr "अधिष्ठापकाचे घटक लोड होण्य
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "${PACKAGE} लोड होणे अपरिचित कारणांनी अयशस्वी झाले. अर्धवट सोडत आहे."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "कर्नल मोडयुल्स न वापरता अधिष्ठापना पुढे चालू ठेवायची?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -142,15 +142,23 @@ msgstr ""
 "कोणतेही कर्नल मोडयुल्स सापडले नाहीत. हे कदाचित अधिष्ठापकाच्या या आवृत्तीने वापरलेले कर्नल "
 "आणि आर्काइव्ह्झ्मध्ये असलेल्य कर्नलची आवृत्ती यांच्यातील विसंगतीमुळे असेल."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"जर तुम्ही मिरर मधून अधिष्ठापना करत असाल तर तूम्ही डेबिअनची वेगळी आवृत्ती अधिष्ठापित करुन "
-"या समस्येवर तोडगा काढू शकता. जर तुम्ही कर्नल मॉड्यूल्सशिवाय ही अधिष्ठापना पुढे सुरू ठेवली "
-"तर ती बहुदा अयशस्वी होईल."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "कर्नल मोडयुल्स न वापरता अधिष्ठापना पुढे चालू ठेवायची?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "जर तुम्ही मिरर मधून अधिष्ठापना करत असाल तर तूम्ही डेबिअनची वेगळी आवृत्ती अधिष्ठापित "
+#~ "करुन या समस्येवर तोडगा काढू शकता. जर तुम्ही कर्नल मॉड्यूल्सशिवाय ही अधिष्ठापना पुढे सुरू "
+#~ "ठेवली तर ती बहुदा अयशस्वी होईल."

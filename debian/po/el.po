@@ -31,8 +31,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2017-11-17 01:07+0200\n"
 "Last-Translator: Sotirios Vrachas <sotirios@vrachas.net>\n"
 "Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
@@ -141,15 +141,14 @@ msgstr ""
 "Η φόρτωση του πακέτου λογισμικού ${PACKAGE} απέτυχε για άγνωστους λόγους. Η "
 "διαδικασία θα τερματιστεί."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
+msgid "No kernel modules found"
 msgstr ""
-"Να συνεχιστεί η εγκατάσταση χωρίς τη φόρτωση των αρθρωμάτων του πυρήνα;"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -162,16 +161,25 @@ msgstr ""
 "της έκδοσης του πυρήνα που χρησιμοποιείται για την εγκατάσταση και της "
 "έκδοσης που βρίσκεται στην αρχειοθήκη του Debian."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Αν κάνετε την εγκατάσταση από κάποιον καθρέφτη αρχείων, μπορείτε το "
-"ξεπεράσετε το πρόβλημα δοκιμάζοντας να εγκαταστήσετε διαφορετική έκδοση του "
-"Debian. Η εγκατάσταση πιθανότατα θα αποτύχει αν συνεχίσετε χωρίς αρθρώματα "
-"του πυρήνα."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr ""
+#~ "Να συνεχιστεί η εγκατάσταση χωρίς τη φόρτωση των αρθρωμάτων του πυρήνα;"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Αν κάνετε την εγκατάσταση από κάποιον καθρέφτη αρχείων, μπορείτε το "
+#~ "ξεπεράσετε το πρόβλημα δοκιμάζοντας να εγκαταστήσετε διαφορετική έκδοση "
+#~ "του Debian. Η εγκατάσταση πιθανότατα θα αποτύχει αν συνεχίσετε χωρίς "
+#~ "αρθρώματα του πυρήνα."

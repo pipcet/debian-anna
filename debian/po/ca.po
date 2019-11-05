@@ -19,8 +19,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer wheezy\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-10-18 18:34+0200\n"
 "Last-Translator: Jordi Mallach <jordi@debian.org>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
@@ -130,14 +130,14 @@ msgstr ""
 "La instal·lació de ${PACKAGE} ha fallat per raons desconegudes. S'està "
 "avortant."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Voleu continuar sense carregar mòduls del nucli?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -150,15 +150,23 @@ msgstr ""
 "no coincidència entre el nucli utilitzat per aquesta versió de "
 "l'instal·lador i la versió del nucli disponible a l'arxiu."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Si esteu instal·lant des d'una rèplica, podeu evitar aquest problema "
-"seleccionant la instal·lació d'una versió diferent de Debian. És probable "
-"que la instal·lació no funcione si continueu sense mòduls del nucli."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Voleu continuar sense carregar mòduls del nucli?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Si esteu instal·lant des d'una rèplica, podeu evitar aquest problema "
+#~ "seleccionant la instal·lació d'una versió diferent de Debian. És probable "
+#~ "que la instal·lació no funcione si continueu sense mòduls del nucli."

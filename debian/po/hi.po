@@ -29,8 +29,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_hi\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2011-09-17 09:17-0500\n"
 "Last-Translator: Kumar Appaiah\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -134,14 +134,14 @@ msgstr "संस्थापक अवयव लोड करने में �
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "अविदित कारणों से ${PACKAGE} लोड नहीं हुआ. बंद कर रहे हैं."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "बिना करनेल मॉड्यूल लोड किये आगे संस्थापन करें?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -153,14 +153,22 @@ msgstr ""
 "कोई करनेल मॉड्यूल नहीं मिले. यह संभवतः संस्थापक द्वारा उपयोग किये जा रहे और अभिलेख में "
 "उपलब्ध करनेल वर्ज़न में अंतर के कारण है."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"यदि आप किसी मिरर से संस्थापन कर रहे हैं तो डेबियन का कोई अन्य वर्ज़न चुन कर इस समस्या का "
-"समाधान कर सकते हैं. बिना करनेल मॉड्यूलों के संस्थापन संभवतः असफल होगा."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "बिना करनेल मॉड्यूल लोड किये आगे संस्थापन करें?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "यदि आप किसी मिरर से संस्थापन कर रहे हैं तो डेबियन का कोई अन्य वर्ज़न चुन कर इस समस्या "
+#~ "का समाधान कर सकते हैं. बिना करनेल मॉड्यूलों के संस्थापन संभवतः असफल होगा."

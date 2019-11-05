@@ -27,8 +27,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2016-07-25 23:45+0300\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
@@ -135,14 +135,14 @@ msgstr "Kurulum bileşeni yüklenemedi"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "${PACKAGE} bileşeni bilinmeyen nedenlerle yüklenemedi."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Çekirdek modüllerini yüklemeden kuruluma devam edilsin mi?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -155,15 +155,23 @@ msgstr ""
 "bu sürümü tarafından kullanılan çekirdekle, arşivde mevcut çekirdek sürümü "
 "arasındaki bir uyuşmazlıktan kaynaklanıyor."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Bir yansıdan kurulum yapıyorsanız farklı bir Debian sürümü kurmayı seçerek "
-"bu sorunu geçici olarak çözebilirsiniz. Çekirdek modülleri olmadan "
-"sürdürülen bir kurulum büyük bir olasılıkla başarısız olacaktır."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Çekirdek modüllerini yüklemeden kuruluma devam edilsin mi?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Bir yansıdan kurulum yapıyorsanız farklı bir Debian sürümü kurmayı "
+#~ "seçerek bu sorunu geçici olarak çözebilirsiniz. Çekirdek modülleri "
+#~ "olmadan sürdürülen bir kurulum büyük bir olasılıkla başarısız olacaktır."

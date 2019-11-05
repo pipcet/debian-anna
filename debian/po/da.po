@@ -37,8 +37,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2015-08-16 20:20+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: <dansk@dansk-gruppen.dk>\n"
@@ -145,14 +145,14 @@ msgstr "Kunne ikke indlæse installationskomponenten"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Det lykkedes af ukendte grunde ikke at hente ${PACKAGE}. Afbryder."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Fortsæt installationen uden at indlæse kernemoduler?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -165,15 +165,24 @@ msgstr ""
 "kerneversion, der benyttes af denne version af installationsprogrammet ikke "
 "passer til de kerneversioner, der er tilgængelige i arkivet."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Hvis du installerer fra et filspejl, kan du omgå dette problem ved at vælge "
-"at installere en anden Debianversion. Installationen vil sandsynligvis ikke "
-"komme til at fungere hvis du fortsætter uden kernemodulerne."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Fortsæt installationen uden at indlæse kernemoduler?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Hvis du installerer fra et filspejl, kan du omgå dette problem ved at "
+#~ "vælge at installere en anden Debianversion. Installationen vil "
+#~ "sandsynligvis ikke komme til at fungere hvis du fortsætter uden "
+#~ "kernemodulerne."

@@ -1,3 +1,13 @@
+anna (1.73) UNRELEASED; urgency=medium
+
+  * Change template, to give a senseful message to the user, when no kernel
+    modules can be found.
+    Also, turn that from a question into an error message, since continuing
+    isn't possible without kernel modules anyway.
+    Closes: #749991, #367515.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 05 Nov 2019 23:50:24 +0100
+
 anna (1.72) unstable; urgency=medium
 
   * Team upload

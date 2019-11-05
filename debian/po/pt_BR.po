@@ -20,8 +20,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-03-31 20:46-0300\n"
 "Last-Translator: Felipe Augusto van de Wiel (faw) <faw@debian.org>\n"
 "Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
@@ -130,14 +130,14 @@ msgstr "Falha ao carregar componente do instalador"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Falha ao carregar ${PACKAGE} por razões desconhecidas. Abortando."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Continuar a instalação sem carregar módulos do kernel?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -150,15 +150,24 @@ msgstr ""
 "uma má combinação entre o kernel usado por esta versão do instalador e a "
 "versão do kernel disponível no repositório."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Se você está instalando a partir de um espelho de rede, você pode contornar "
-"este problema optando por instalar uma versão diferente do Debian. A "
-"instalação provavelmente falhará se você continuar sem módulos de kernel."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Continuar a instalação sem carregar módulos do kernel?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Se você está instalando a partir de um espelho de rede, você pode "
+#~ "contornar este problema optando por instalar uma versão diferente do "
+#~ "Debian. A instalação provavelmente falhará se você continuar sem módulos "
+#~ "de kernel."

@@ -31,8 +31,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2018-03-04 12:38+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
@@ -139,14 +139,14 @@ msgstr "Gagal memuat komponen instalasi"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Pemuatan ${PACKAGE} gagal tanpa sebab jelas. Terpaksa dibatalkan."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Melanjutkan instalasi tanpa memuat modul-modul kernel?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -159,15 +159,23 @@ msgstr ""
 "kernel yang digunakan penginstal ini dan versi kernel yang tersedia pada "
 "arsip."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Jika Anda memasang dari sebuah mirror, Anda dapat memecahkannya dengan "
-"memilih memasang versi Debian yang lain. Pemasangan kemungkinan besar akan "
-"gagal bila Anda melanjutkan tanpa memasang modul-modul kernel."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Melanjutkan instalasi tanpa memuat modul-modul kernel?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Jika Anda memasang dari sebuah mirror, Anda dapat memecahkannya dengan "
+#~ "memilih memasang versi Debian yang lain. Pemasangan kemungkinan besar "
+#~ "akan gagal bila Anda melanjutkan tanpa memasang modul-modul kernel."

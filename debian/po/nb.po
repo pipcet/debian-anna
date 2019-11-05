@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2008-08-03 07:52+0200\n"
 "Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -122,14 +122,14 @@ msgstr "Klarte ikke å laste installasjonskomponenten"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Lastingen av ${PACKAGE} mislyktes av ukjente årsaker. Avbryter."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Vil du fortsette installasjonen uten å laste inn kjernemoduler?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -142,15 +142,23 @@ msgstr ""
 "brukes i denne versjonen av installasjonsprogrammet ikke stemmer med "
 "versjonen som finnes i arkivet."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Hvis du installerer fra et nett-arkiv kan du komme rundt dette problemet ved "
-"å velge å installere en annen Debian-versjon. Installasjonen blir antakelig "
-"mislykket hvis du fortsetter uten kjernemoduler."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Vil du fortsette installasjonen uten å laste inn kjernemoduler?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Hvis du installerer fra et nett-arkiv kan du komme rundt dette problemet "
+#~ "ved å velge å installere en annen Debian-versjon. Installasjonen blir "
+#~ "antakelig mislykket hvis du fortsetter uten kjernemoduler."

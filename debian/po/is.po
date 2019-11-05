@@ -23,8 +23,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2018-01-04 06:20+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
@@ -130,14 +130,14 @@ msgstr "Tókst ekki að hlaða hluta uppsetningarkerfisins"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Ekki tókst að hlaða inn ${PACKAGE} af einhverjum ástæðum. Hætti við."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Halda uppsetningu áfram án þess að hlaða inn kjarnaeiningum?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -150,15 +150,23 @@ msgstr ""
 "kjarnans sem notaður er af þessari útgáfu uppsetningarkerfisins og "
 "kjarnaútgáfunnar sem er í boði."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Ef þú ert að setja upp frá pakkaspegli gætir þú reynt að setja upp aðra "
-"útgáfu af Debian. Uppsetningin mun að öllum líkindum mistakast ef þú heldur "
-"áfram án þess að hlaða inn kjarnaeiningum."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Halda uppsetningu áfram án þess að hlaða inn kjarnaeiningum?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Ef þú ert að setja upp frá pakkaspegli gætir þú reynt að setja upp aðra "
+#~ "útgáfu af Debian. Uppsetningin mun að öllum líkindum mistakast ef þú "
+#~ "heldur áfram án þess að hlaða inn kjarnaeiningum."

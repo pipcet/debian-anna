@@ -23,8 +23,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2010-11-16 15:21+0100\n"
 "Last-Translator: Vanja Cvelbar <cvelbar@gmail.com>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
@@ -130,14 +130,14 @@ msgstr "Nalaganje komponente namestitve ni uspelo"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Nalaganje ${PACKAGE} ni uspelo iz neznanih razlogov. Prekinjam."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Nadaljujem z namestitvijo ne da bi naložil module jedra?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -150,15 +150,23 @@ msgstr ""
 "različici jedra, ki je v uporabi v tej različici namestitve in jedra, ki je "
 "na voljo v arhivu."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"V primeru, da nameščate iz zrcalnega strežnika se lahko izognete temu, tako, "
-"da namestite drugo različico Debiana. Namestitev verjetno ne bo uspešna, če "
-"se odločite nadaljevati brez modulov za jedro."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Nadaljujem z namestitvijo ne da bi naložil module jedra?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "V primeru, da nameščate iz zrcalnega strežnika se lahko izognete temu, "
+#~ "tako, da namestite drugo različico Debiana. Namestitev verjetno ne bo "
+#~ "uspešna, če se odločite nadaljevati brez modulov za jedro."

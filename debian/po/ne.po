@@ -22,8 +22,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_ne\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2017-12-17 18:40+0000\n"
 "Last-Translator: Jeewal Kunwar <jeewalkunwar1@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -128,14 +128,14 @@ msgstr "स्थापनाकर्ता अवयव लोड हुन �
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "${PACKAGE} लोडिङ्ग अज्ञात कारणहरुले गर्दा असफल भयो । परित्याग गर्दैछ । "
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "कर्नेल मोड्युलहरू लोड नगरिकन स्थापना निरन्तर गर्नुहुन्छ?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -147,15 +147,23 @@ msgstr ""
 "कुनै पनि कर्नेल मोड्युलहरू फेला परेनन् । सायद, यो संस्करणको स्थापनाकर्ताले प्रयोग गर्ने र यो "
 "सङ्ग्रहमा उपलब्ध कर्नेल संस्करण बिचमा भिन्नता भएका कारण गर्दा यस्तो भएको हुन सक्छ ।"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"यदि तपाईँले मिरर बाट स्थापना गरिरहनुभएको छ भने, तपाईँले डेबियनको फरक संस्करण रोजेर यस "
-"समस्याको वरिपरि कार्य गर्न सक्नुहुन्छ । यदि तपाईँले कर्नेल मोड्युलहरू बिनानै निरन्तर गर्नुभयो "
-"भने स्थापनाले सायद काम नगर्न पनि सक्छ ।"
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "कर्नेल मोड्युलहरू लोड नगरिकन स्थापना निरन्तर गर्नुहुन्छ?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "यदि तपाईँले मिरर बाट स्थापना गरिरहनुभएको छ भने, तपाईँले डेबियनको फरक संस्करण रोजेर "
+#~ "यस समस्याको वरिपरि कार्य गर्न सक्नुहुन्छ । यदि तपाईँले कर्नेल मोड्युलहरू बिनानै निरन्तर "
+#~ "गर्नुभयो भने स्थापनाले सायद काम नगर्न पनि सक्छ ।"

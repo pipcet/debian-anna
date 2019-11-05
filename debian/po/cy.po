@@ -19,8 +19,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-06-14 09:46-0000\n"
 "Last-Translator: Dafydd Tomos <l10n@da.fydd.org>\n"
 "Language-Team: Welsh <>\n"
@@ -126,14 +126,14 @@ msgstr "Llwytho cydran sefydlydd wedi methu"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Llwytho ${PACKAGE} wedi methu am resymau anhysbys. Yn terfynu."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Parhau gyda'r sefydliad heb lwytho modiwlau cnewyllyn?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -146,15 +146,23 @@ msgstr ""
 "fersiwn y cnewyllyn a ddefnyddir gan y fersiwn hyn o'r sefydlydd yn cyfateb "
 "a fersiwn y cnewyllyn sydd yn yr archif."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Os ydych chi'n sefydlu o ddrych, gallwch weithio o gwmpas y broblem hon gan "
-"ddewis i sefydlu fersiwn gwahanol o Debian. Mae'n debygol bydd y sefydliad "
-"yn methu gweithio os ydych chi'n parhau heb fodylau cnewyllyn."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Parhau gyda'r sefydliad heb lwytho modiwlau cnewyllyn?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Os ydych chi'n sefydlu o ddrych, gallwch weithio o gwmpas y broblem hon "
+#~ "gan ddewis i sefydlu fersiwn gwahanol o Debian. Mae'n debygol bydd y "
+#~ "sefydliad yn methu gweithio os ydych chi'n parhau heb fodylau cnewyllyn."

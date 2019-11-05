@@ -25,8 +25,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian Installer Level 1\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2009-02-03 10:16+0530\n"
 "Last-Translator: Hrishikesh K B <hrishi.kb@gmail.com>\n"
 "Language-Team: Debian Malayalam <debian-l10n-malayalam@lists.debian.org>\n"
@@ -132,14 +132,14 @@ msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
 "തിരിച്ചറിയപ്പെടാത്ത കാരണങ്ങളാല്‍ ${PACKAGE} ചേര്‍ക്കുന്നതില്‍ പരാജയപ്പെട്ടു. പിന്തിരിയുന്നു."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "കെര്‍ണല്‍ മൊഡ്യൂളുകള്‍ ചേര്‍ക്കാതെ ഇന്‍സ്റ്റലേഷന്‍ തുടരണോ?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -151,15 +151,23 @@ msgstr ""
 "ഒരു കെര്‍ണല്‍ മൊഡ്യൂളും കണ്ടുകിട്ടിയില്ല. ഇതു് ഇന്‍സ്റ്റാളറിലുപയോഗിക്കുന്ന കെര്‍ണല്‍ വേര്‍ഷനും ശേഖരിണിയില്‍ "
 "ലഭ്യമായിട്ടുള്ള വേര്‍ഷനും തമ്മിലുള്ള പൊരുത്തക്കേടു മൂലമാകാം."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"നിങ്ങള്‍ ഒരു മിററില്‍ നിന്നുമാണു് ഇന്‍സ്റ്റാള്‍ ചെയ്യുന്നതെങ്കില്‍, വ്യത്യസ്തമായൊരു ഡെബിയന്‍ പതിപ്പു് "
-"തെരഞ്ഞെടുത്തു് ഈ പ്രശ്നത്തെ മറികടക്കാം. കെര്‍ണല്‍ മൊഡ്യൂളുകള്‍ കൂടാതെ തുടര്‍ന്നാല്‍ ഇന്‍സ്റ്റലേഷന്‍ "
-"പരാജയപ്പെട്ടേക്കാം."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "കെര്‍ണല്‍ മൊഡ്യൂളുകള്‍ ചേര്‍ക്കാതെ ഇന്‍സ്റ്റലേഷന്‍ തുടരണോ?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "നിങ്ങള്‍ ഒരു മിററില്‍ നിന്നുമാണു് ഇന്‍സ്റ്റാള്‍ ചെയ്യുന്നതെങ്കില്‍, വ്യത്യസ്തമായൊരു ഡെബിയന്‍ പതിപ്പു് "
+#~ "തെരഞ്ഞെടുത്തു് ഈ പ്രശ്നത്തെ മറികടക്കാം. കെര്‍ണല്‍ മൊഡ്യൂളുകള്‍ കൂടാതെ തുടര്‍ന്നാല്‍ ഇന്‍സ്റ്റലേഷന്‍ "
+#~ "പരാജയപ്പെട്ടേക്കാം."

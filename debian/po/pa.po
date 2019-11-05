@@ -24,8 +24,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-05-06 12:14+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -127,14 +127,14 @@ msgstr "ਇੰਸਟਾਲਰ ਸੰਖੇਪ ਲੋਡ ਕਰਨ ਵਿੱਚ �
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "${PACKAGE} ਦੀ ਲੋਡਿੰਗ ਅਣਜਾਣੇ ਕਾਰਨ ਕਰਕੇ ਫੇਲ੍ਹ ਹੋਈ। ਅਧੂਰੀ ਖਤਮ ਹੋ ਰਹੀ ਹੈ।"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "ਕੀ ਕਰਨਲ ਮੋਡੀਊਲ ਲੋਡ ਕੀਤੇ ਬਿਨਾਂ ਇੰਸਟਾਲ ਜਾਰੀ ਰੱਖਣੀ ਹੈ?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -146,14 +146,22 @@ msgstr ""
 "ਕੋਈ ਕਰਨਲ ਮੋਡੀਊਲ ਨਹੀਂ ਲੱਭਿਆ। ਇਹ ਇੰਸਟਾਲ ਰਾਹੀਂ ਵਰਤੇ ਕਰਨਲ ਦੇ ਵਰਜਨ ਅਤੇ ਅਕਾਇਵ ਵਿਚਲੇ ਕਰਨਲ "
 "ਵਰਜਨ ਵਿੱਚ ਨਾ ਮੇਲ ਹੋਣ ਦਾ ਕਾਰਨ ਹੈ।"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"ਜੇ ਤੁਸੀਂ ਈਮੇਜ਼ ਤੋਂ ਇੰਸਟਾਲ ਕਰ ਰਹੇ ਹੋ, ਤੁਸੀਂ ਇਸ ਮੁਸ਼ਕਿਲ ਦਾ ਹੱਲ ਡੇਬੀਅਨ ਦਾ ਹੋਰ ਵਰਜਨ ਚੁਣ ਕੇ ਕਰ ਸਕਦੇ "
-"ਹੋ। ਇੰਸਟਾਲ ਅਸਫਲ ਹੋਵੇਗਾ ਜੇ ਤੁਸੀਂ ਕਰਨਲ ਮੋਡੀਊਲ ਤੋਂ ਬਿਨਾਂ ਜਾਰੀ ਕੀਤਾ।"
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "ਕੀ ਕਰਨਲ ਮੋਡੀਊਲ ਲੋਡ ਕੀਤੇ ਬਿਨਾਂ ਇੰਸਟਾਲ ਜਾਰੀ ਰੱਖਣੀ ਹੈ?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "ਜੇ ਤੁਸੀਂ ਈਮੇਜ਼ ਤੋਂ ਇੰਸਟਾਲ ਕਰ ਰਹੇ ਹੋ, ਤੁਸੀਂ ਇਸ ਮੁਸ਼ਕਿਲ ਦਾ ਹੱਲ ਡੇਬੀਅਨ ਦਾ ਹੋਰ ਵਰਜਨ ਚੁਣ ਕੇ ਕਰ "
+#~ "ਸਕਦੇ ਹੋ। ਇੰਸਟਾਲ ਅਸਫਲ ਹੋਵੇਗਾ ਜੇ ਤੁਸੀਂ ਕਰਨਲ ਮੋਡੀਊਲ ਤੋਂ ਬਿਨਾਂ ਜਾਰੀ ਕੀਤਾ।"

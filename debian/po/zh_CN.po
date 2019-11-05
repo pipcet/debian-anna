@@ -31,8 +31,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2014-03-05 14:59+0800\n"
 "Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -133,14 +133,14 @@ msgstr "加载安装程序组件失败"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "未知原因导致组件 ${PACKAGE} 加载失败。程序中止。"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "未加载内核模块，继续安装吗？"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -152,14 +152,22 @@ msgstr ""
 "未找到内核模块。这可能是由于本安装程序所使用的内核版本与网络存档中的内核版本"
 "不同造成的。"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"如果您正在从镜像进行网络安装，可以选择安装其他版本的 Debian 以解决这个问题。"
-"如果您选择不加载内核模块，安装程序可能将无法正常工作。"
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "未加载内核模块，继续安装吗？"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "如果您正在从镜像进行网络安装，可以选择安装其他版本的 Debian 以解决这个问"
+#~ "题。如果您选择不加载内核模块，安装程序可能将无法正常工作。"

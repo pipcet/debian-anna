@@ -34,8 +34,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ro\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2011-09-15 09:41+0300\n"
 "Last-Translator: Ioan Eugen Stan <stan.ieugen@gmail.com>\n"
 "Language-Team: ro <debian-l10n-romanian@lists.debian.org>\n"
@@ -144,14 +144,14 @@ msgstr "Încărcarea componentei programului de instalare a eșuat"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Încărcarea ${PACKAGE} a eșuat din motive necunoscute. Se abandonează."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Se continuă instalarea fără a încărca modulele de nucleu?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -164,15 +164,23 @@ msgstr ""
 "nepotriviri dintre nucleul folosit de această versiune a programului de "
 "instalare și versiunea de nucleu disponibilă în arhivă."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Dacă instalați de pe un sit alternativ, puteți ocoli această problemă prin "
-"instalarea altei versiuni de Debian. Instalarea probabil că va eșua dacă "
-"continuați fără module."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Se continuă instalarea fără a încărca modulele de nucleu?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Dacă instalați de pe un sit alternativ, puteți ocoli această problemă "
+#~ "prin instalarea altei versiuni de Debian. Instalarea probabil că va eșua "
+#~ "dacă continuați fără module."

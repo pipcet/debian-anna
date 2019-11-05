@@ -25,8 +25,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2018-12-19 23:08+0000\n"
 "Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
@@ -135,14 +135,14 @@ msgstr ""
 "Asennuspaketin ${PACKAGE} lataaminen epäonnistui tuntemattomasta syystä. "
 "Keskeytetään."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Jatketaanko asennusta lataamatta ytimen moduuleita?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -154,15 +154,23 @@ msgstr ""
 "Ytimen moduuleita ei löytynyt. Luultavasti tämän asentimen käyttämä ydin on "
 "eri versio kuin pakettivarastosta löytyvä."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Palvelimelta asennettaessa tämä ongelma voidaan kiertää valitsemalla "
-"asennettavaksi toinen Debianin versio. Asennus luultavasti epäonnistuu, jos "
-"jatkat asennusta ilman ytimen moduuleita."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Jatketaanko asennusta lataamatta ytimen moduuleita?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Palvelimelta asennettaessa tämä ongelma voidaan kiertää valitsemalla "
+#~ "asennettavaksi toinen Debianin versio. Asennus luultavasti epäonnistuu, "
+#~ "jos jatkat asennusta ilman ytimen moduuleita."

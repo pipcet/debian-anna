@@ -19,8 +19,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2011-12-17 11:35+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
@@ -124,14 +124,14 @@ msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
 "${PACKAGE} ಅನ್ನು ತುಂಬುವುದು ಅರಿಯದ ಕಾರಣಗಳಿಂದಾಗಿ ವಿಫಲವಾಗಿದೆ. ನಿರ್ಗಮಿಸಲಾಗುತ್ತಿದೆ."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "ಕರ್ನಲ್ ಘಟಕಗಳನ್ನು ಹೇರದೆಯೇ ಸಂಸ್ಥಾಪನೆ ಮುಂದುವರೆಸುವುದೇ?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -143,15 +143,23 @@ msgstr ""
 "ಕರ್ನಲ್ ಭಾಗಾಂಶಗಳು ಪತ್ತೆಯಾಗಿಲ್ಲ. ಇದು ಬಹುಶಃ ಸ್ಥಾಪಕ ವ್ಯವಸ್ಥೆಯು ಬಳಸುತ್ತಿರುವ ಕರ್ನಲಿನ ಆವೃತ್ತಿ "
 "ಮತ್ತು ಆಗರದಲ್ಲಿರುವ ಕರ್ನಲಿನ ಆವೃತ್ತಿಯ ವ್ಯತ್ಯಾಸದಿಂದಾಗಿರಬಹುದು."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"ನೀವು ದರ್ಪಣದಿಂದ ಅನುಸ್ಥಾಪಿಸುತ್ತಿದ್ದಲ್ಲಿ, ಈ ಸಮಸ್ಯೆಯನ್ನು ನಿವಾರಿಸಲು ಬೇರೊಂದು ಡೆಬಿಯನ್ "
-"ಆವೃತ್ತಿಯನ್ನು ಅನುಸ್ಥಾಪಿಸಿ. ನೀವು ಕರ್ನಲ್ ಘಟಕಗಳಿಲ್ಲದೆ ಮುಂದುವರೆದರೆ ಬಹುಶಃ ಈ ಅನುಸ್ಥಾಪನೆಯು "
-"ವಿಫಲಗೊಳ್ಳಬಹುದು."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "ಕರ್ನಲ್ ಘಟಕಗಳನ್ನು ಹೇರದೆಯೇ ಸಂಸ್ಥಾಪನೆ ಮುಂದುವರೆಸುವುದೇ?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "ನೀವು ದರ್ಪಣದಿಂದ ಅನುಸ್ಥಾಪಿಸುತ್ತಿದ್ದಲ್ಲಿ, ಈ ಸಮಸ್ಯೆಯನ್ನು ನಿವಾರಿಸಲು ಬೇರೊಂದು ಡೆಬಿಯನ್ "
+#~ "ಆವೃತ್ತಿಯನ್ನು ಅನುಸ್ಥಾಪಿಸಿ. ನೀವು ಕರ್ನಲ್ ಘಟಕಗಳಿಲ್ಲದೆ ಮುಂದುವರೆದರೆ ಬಹುಶಃ ಈ "
+#~ "ಅನುಸ್ಥಾಪನೆಯು ವಿಫಲಗೊಳ್ಳಬಹುದು."

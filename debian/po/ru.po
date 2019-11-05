@@ -16,8 +16,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2009-03-22 09:03+0300\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
@@ -125,14 +125,14 @@ msgstr "Не удалось загрузить компонент програм
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Не удалось загрузить ${PACKAGE} по неизвестным причинам. Отмена."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Продолжить установку без загрузки модулей ядра?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -145,15 +145,23 @@ msgstr ""
 "предназначены не для той версии ядра, которое использует сейчас программа "
 "установки."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Если вы производите установку с зеркала, то можете обойти эту проблему, "
-"выбрав для установки другую версию Debian. Без модулей ядра продолжение "
-"установки может оказаться невозможным."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Продолжить установку без загрузки модулей ядра?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Если вы производите установку с зеркала, то можете обойти эту проблему, "
+#~ "выбрав для установки другую версию Debian. Без модулей ядра продолжение "
+#~ "установки может оказаться невозможным."

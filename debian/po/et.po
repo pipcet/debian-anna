@@ -29,8 +29,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-01-25 02:09+0200\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <>\n"
@@ -135,14 +135,14 @@ msgstr "Paigaldaja komponendi laadimine nurjus"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "${PACKAGE} laadimine nurjus teadmata põhjustel. Katkestatakse."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Kas jätkata paigaldamist ilma kerneli mooduleid laadimata?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -155,15 +155,23 @@ msgstr ""
 "paigaldaja kasutab ühte kerneli versiooni, aga arhiivis on saadaval mõni "
 "teine kerneli versioon."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Kui sa paigaldad peeglist, võid valida paigaldamiseks teise Debiani "
-"versiooni ja nii probleemist mööda hiilida. Kui proovid jätkata ilma kerneli "
-"mooduliteta, siis paigaldamine tõenäoliselt nurjub."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Kas jätkata paigaldamist ilma kerneli mooduleid laadimata?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Kui sa paigaldad peeglist, võid valida paigaldamiseks teise Debiani "
+#~ "versiooni ja nii probleemist mööda hiilida. Kui proovid jätkata ilma "
+#~ "kerneli mooduliteta, siis paigaldamine tõenäoliselt nurjub."

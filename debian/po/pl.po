@@ -31,8 +31,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2011-09-26 10:46+0100\n"
 "Last-Translator: Michał Kułach <michal.kulach@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
@@ -142,14 +142,14 @@ msgstr ""
 "Załadowanie ${PACKAGE} nie powiodło się, a przyczyna nie jest znana. "
 "Przerywanie."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Kontynuować instalację bez ładowania modułów jądra?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -161,15 +161,23 @@ msgstr ""
 "Nie znaleziono modułów jądra. Prawdopodobnie z powodu niezgadzających się "
 "wersji jądra używanego przez instalator i tego znajdującego się w archiwum."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Jeśli instalujesz korzystając z serwera lustrzanego, możesz obejść ten "
-"problem wybierając instalację innej wersji Debiana. Instalacja bez modułów "
-"jądra prawdopodobnie nie powiedzie się."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Kontynuować instalację bez ładowania modułów jądra?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Jeśli instalujesz korzystając z serwera lustrzanego, możesz obejść ten "
+#~ "problem wybierając instalację innej wersji Debiana. Instalacja bez "
+#~ "modułów jądra prawdopodobnie nie powiedzie się."

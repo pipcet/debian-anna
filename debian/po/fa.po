@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fa\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2010-08-20 13:50+0330\n"
 "Last-Translator: Behrad Eslamifar <behrad_es@yahoo.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
@@ -117,14 +117,14 @@ msgstr "بارگیری مؤلفه‌های نصاب شکست خورد"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "بارگذاری ${PACKAGE} به علت نا معلومی شکست خورد، در حال خاتمه."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "نصب بدون بارگذاری ماژول‌های هسته ادامه یابد؟"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -136,15 +136,23 @@ msgstr ""
 "هیچ ماژول هسته‌ای یافت نشد. احتمالاً به علت نبود تناسب بین هستهٔ مورد استفادهٔ "
 "این نسخه از نصاب و نسخهٔ هستهٔ موجود در بایگانی است."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"اگر از آینه‌ها در حال نصب کردن هستید، می‌توانید با انتخاب نصب نسخهٔ دیگری از "
-"دبیان از کنار این مشکل بگذرید. اگر بدون ماژول‌های هسته ادامه دهید، نصب "
-"احتمالاً با شکست مواجه خواهد شد."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "نصب بدون بارگذاری ماژول‌های هسته ادامه یابد؟"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "اگر از آینه‌ها در حال نصب کردن هستید، می‌توانید با انتخاب نصب نسخهٔ دیگری از "
+#~ "دبیان از کنار این مشکل بگذرید. اگر بدون ماژول‌های هسته ادامه دهید، نصب "
+#~ "احتمالاً با شکست مواجه خواهد شد."

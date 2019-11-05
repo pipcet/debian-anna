@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hy\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2009-10-19 17:25+0500\n"
 "Last-Translator: Vardan Gevorgyan <vardangevorgyan@yahoo.com>\n"
 "Language-Team: Armenian <d-i@debian.am>\n"
@@ -121,14 +121,14 @@ msgstr "Հնարավոր չէ բեռնել տեղադրիչի բաղադրիչը
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Անհայտ պատճառով անհնար է բեռնել ${PACKAGE}։"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Շարունակե՞լ տեղադրումը առանց միջուկի մոդուլների։"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -140,15 +140,23 @@ msgstr ""
 "Կորիզի մոդուլները հայտնաբերված չեն։ Հնարավոր է, որ մոդուլները նախատեսված չեն "
 "տեղադրիչի կողմից օգտագործվող կորիզի տերբերակի համար։"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Եթե դուք տեղադրումը կատարում եք հայելային սպասարկիչից, ապա դուք կարող եք "
-"շրջանցել այս խնդիրը ընտրելով կորիզի այլ տարբերակ։ Առանց կորիզի մոդուլների "
-"տեղադրման ընթացքը կարող է անհնարին լինել։"
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Շարունակե՞լ տեղադրումը առանց միջուկի մոդուլների։"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Եթե դուք տեղադրումը կատարում եք հայելային սպասարկիչից, ապա դուք կարող եք "
+#~ "շրջանցել այս խնդիրը ընտրելով կորիզի այլ տարբերակ։ Առանց կորիզի մոդուլների "
+#~ "տեղադրման ընթացքը կարող է անհնարին լինել։"

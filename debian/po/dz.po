@@ -17,8 +17,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dDz.po\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-02-29 04:41-0500\n"
 "Last-Translator: Jurmey Rabgay <jrabgay@dit.gov.bt>\n"
 "Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
@@ -124,14 +124,14 @@ msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
 "${PACKAGE}མངོན་གསལ་འབད་ནི་དེ་རྒྱུ་མཚན་མ་ཤེསཔ་ལས་བརྟེན་འཐུས་ཤོར་འབྱུང་ནུག། བར་བཤོལ་འབད་དོ།"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "ཀར་ནེལ་ཚད་གཞི་མངོན་གསལ་མ་འབད་བར་ གཞི་བཙུགས་འཕྲོ་མཐུད་དེ་འབད?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -143,15 +143,23 @@ msgstr ""
 "ཀར་ནེལ་ཚད་གཞི་ཚུ་འཚོལ་མ་ཐོབ་ དེ་འབད་ཨིན་དགོ་མི་འདི་གཞི་བཙུགས་པ་དང་ཀར་ནེལ་ཐོན་རིམ་གཉིས་ཀྱི་བར་ན་"
 "མ་མཐུན་པའི་ཀར་ནེལ་ལག་ལེན་འཐབ་ནི་འདི་གིས་ཨིན།"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"ཁྱོད་ཀྱིས་ངོ་འཆར་ལས་གཞི་བཙུགས་འབད་བ་ཅིན་ ཁྱོད་ཀྱིས་ཌེ་བི་ཡཱན་ཐོན་རིམ་སོ་སོ་གཞི་བཙུགས་ཀྱི་གདམ་ཁ་རྐྱབ་པ་"
-"ཅིན་དཀའ་ངལ་མེད་པར་ལཱ་འབད་ཚུགས ཁྱོད་ཀྱིས་ཀར་ནེལ་ཚད་གཞི་འདི་མེདཔ་སྦེ་འཕྲོ་མཐུད་འབད་བ་ཅིན་ཡང་ན་གཞི་"
-"བཙུགས་འདི་ལཱ་འབད་ནི་ལུ་འཐུས་ཤོར་འབྱུང་འོང་།"
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "ཀར་ནེལ་ཚད་གཞི་མངོན་གསལ་མ་འབད་བར་ གཞི་བཙུགས་འཕྲོ་མཐུད་དེ་འབད?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་ངོ་འཆར་ལས་གཞི་བཙུགས་འབད་བ་ཅིན་ ཁྱོད་ཀྱིས་ཌེ་བི་ཡཱན་ཐོན་རིམ་སོ་སོ་གཞི་བཙུགས་ཀྱི་གདམ་ཁ་"
+#~ "རྐྱབ་པ་ཅིན་དཀའ་ངལ་མེད་པར་ལཱ་འབད་ཚུགས ཁྱོད་ཀྱིས་ཀར་ནེལ་ཚད་གཞི་འདི་མེདཔ་སྦེ་འཕྲོ་མཐུད་འབད་བ་ཅིན་"
+#~ "ཡང་ན་གཞི་བཙུགས་འདི་ལཱ་འབད་ནི་ལུ་འཐུས་ཤོར་འབྱུང་འོང་།"

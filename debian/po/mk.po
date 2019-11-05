@@ -22,8 +22,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-04-11 15:54+0200\n"
 "Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
 "Language-Team: Macedonian <>\n"
@@ -130,14 +130,14 @@ msgstr "Не успеав да вчитам инсталциона компон�
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Вчитување на ${PACKAGE} не успеа поради непознати причини. Прекинувам."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Продолжи со инсталацијата без да ги вчиташ модулите на кернелот?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -150,15 +150,23 @@ msgstr ""
 "верзиите на кернелот кој го користи оваа верзија на инсталерот со верзијата "
 "достапна во архивата."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Ако инсталираш од алтернативен сервер, може да го заобиколиш овој проблем "
-"ако одбереш да инсталираш друга верзија на Debian.  Инсталацијата "
-"најверојатно нема да работи ако продолжиш без кернел модулите."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Продолжи со инсталацијата без да ги вчиташ модулите на кернелот?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Ако инсталираш од алтернативен сервер, може да го заобиколиш овој проблем "
+#~ "ако одбереш да инсталираш друга верзија на Debian.  Инсталацијата "
+#~ "најверојатно нема да работи ако продолжиш без кернел модулите."

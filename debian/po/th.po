@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2011-02-02 11:11+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -115,14 +115,14 @@ msgstr "โหลดองค์ประกอบการติดตั้ง
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "โหลด ${PACKAGE} ไม่สำเร็จโดยไม่ทราบสาเหตุ ขอยกเลิก"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "จะติดตั้งต่อไปโดยไม่โหลดมอดูลของเคอร์เนลหรือไม่?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -134,14 +134,22 @@ msgstr ""
 "ไม่พบมอดูลของเคอร์เนล อาจเป็นเพราะรุ่นของเคอร์เนลที่ใช้ในโปรแกรมติดตั้งนี้ "
 "ไม่ตรงกับรุ่นของเคอร์เนลที่มีในแหล่งแพกเกจ"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"ถ้าคุณกำลังติดตั้งจากแหล่งสำเนา คุณอาจแก้ปัญหานี้ชั่วคราวด้วยการเลือกติดตั้งเดเบียนรุ่นอื่น "
-"การติดตั้งอาจล้มเหลวถ้าคุณพยายามทำต่อโดยไม่มีมอดูลของเคอร์เนล"
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "จะติดตั้งต่อไปโดยไม่โหลดมอดูลของเคอร์เนลหรือไม่?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "ถ้าคุณกำลังติดตั้งจากแหล่งสำเนา คุณอาจแก้ปัญหานี้ชั่วคราวด้วยการเลือกติดตั้งเดเบียนรุ่นอื่น "
+#~ "การติดตั้งอาจล้มเหลวถ้าคุณพยายามทำต่อโดยไม่มีมอดูลของเคอร์เนล"

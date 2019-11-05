@@ -19,8 +19,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-10-08 10:49+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
@@ -128,14 +128,14 @@ msgstr "Не вдалося завантажити компонент встан
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Не вдалося завантажити ${PACKAGE} з невідомої причини. Дію перервано."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Продовжити встановлення без завантаження модулів ядра?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -148,15 +148,23 @@ msgstr ""
 "використовується цією версією встановлювача, не збігається із версією, "
 "наявною в архіві."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Якщо ви проводите встановлення із дзеркала, то ви можете спробувати вибрати "
-"встановлення іншої версії Debian. Встановлення, скоріше за все, буде "
-"невдалим, якщо ви продовжите без модулів ядра."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Продовжити встановлення без завантаження модулів ядра?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Якщо ви проводите встановлення із дзеркала, то ви можете спробувати "
+#~ "вибрати встановлення іншої версії Debian. Встановлення, скоріше за все, "
+#~ "буде невдалим, якщо ви продовжите без модулів ядра."

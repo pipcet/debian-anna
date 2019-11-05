@@ -48,8 +48,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2011-02-04 03:13+0100\n"
 "Last-Translator: Javier Fernández-Sanguino <jfs@debian.org>\n"
 "Language-Team:  Debian Spanish <debian-l10n-spanish@lists.debian.org>\n"
@@ -157,14 +157,14 @@ msgstr ""
 "La carga del componente ${PACKAGE} falló por razones desconocidas. "
 "Interrumpiendo."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "¿Desea continuar la instalación sin cargar módulos del núcleo?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -177,15 +177,23 @@ msgstr ""
 "diferencia de versión entre el núcleo utilizado por el instalador y el "
 "núcleo disponible en el archivo."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Puede resolver este problema seleccionando una versión de Debian distinta "
-"para instalar si está instalando de una réplica. La instalación "
-"probablemente fallará si continúa sin módulos del núcleo."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "¿Desea continuar la instalación sin cargar módulos del núcleo?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Puede resolver este problema seleccionando una versión de Debian distinta "
+#~ "para instalar si está instalando de una réplica. La instalación "
+#~ "probablemente fallará si continúa sin módulos del núcleo."

@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ku\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2010-07-09 21:51+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -122,14 +122,14 @@ msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
 "Barkirina ${PACKAGE} ji ber sedemeke nayê zanîn biserneket. Tê rawestandin."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Bila sazkirin bêyî barkirina modulên kernelê bidome?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -141,15 +141,23 @@ msgstr ""
 "Tu modulên kernelê nehatin dîtin. Dibe ku di navbera kernela ku di vê "
 "guhertoyê de tê bikaranîn û ya di arşîvê de nelihevkirinek hebe."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Heke tu ji neynikekê sazkirinê dikî, guhertoyeke cuda ya Debian hilbijêre da "
-"tu vê pirsgirêkê çareser bikî. Heke bêyî modulên kernelê tu bidomînî, bi "
-"gumaneke mezin dê sazkirina te bi ser nekeve."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Bila sazkirin bêyî barkirina modulên kernelê bidome?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Heke tu ji neynikekê sazkirinê dikî, guhertoyeke cuda ya Debian hilbijêre "
+#~ "da tu vê pirsgirêkê çareser bikî. Heke bêyî modulên kernelê tu bidomînî, "
+#~ "bi gumaneke mezin dê sazkirina te bi ser nekeve."

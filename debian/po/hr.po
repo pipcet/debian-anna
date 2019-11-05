@@ -21,8 +21,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2019-07-04 17:02+0000\n"
 "Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
@@ -130,14 +130,14 @@ msgstr "Neuspjelo učitavanje instalacijskih komponenti"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Učitavanje ${PACKAGE} neuspjelo zbog nepoznatih razloga. Prekidam."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Nastavi instalaciju bez učitavanja kernelovih modula?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -149,15 +149,23 @@ msgstr ""
 "Nema pronađenih kernelovih modula. Razlog tomu je vjerojatno nepodudarnost "
 "inačica kernela kojeg koristi instalacija i kernela dostupnog u arhivi."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Ako instalirate sa zrcalnog poslužitelja, možete riješiti ovaj problem "
-"instalirajući neku drugu inačicu Debiana. Instalacija vjerojatno neće "
-"uspjeti ako nastavite bez kernelovih modula."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Nastavi instalaciju bez učitavanja kernelovih modula?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Ako instalirate sa zrcalnog poslužitelja, možete riješiti ovaj problem "
+#~ "instalirajući neku drugu inačicu Debiana. Instalacija vjerojatno neće "
+#~ "uspjeti ako nastavite bez kernelovih modula."

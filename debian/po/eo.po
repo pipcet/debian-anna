@@ -13,8 +13,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2011-03-16 20:46-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <debian-l10n-esperanto@lists.debian.org>\n"
@@ -119,14 +119,14 @@ msgstr "Ŝargo je instalpako malsukcesis"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Ŝargado je ${PACKAGE} malsukcesis pro nekonata kialo. Ni rezignas."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Ĉu oni daŭrigu la instalprocezon sen ŝargi je kernaj moduloj?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -138,16 +138,24 @@ msgstr ""
 "Neniu kerna modulo estis trovita. Verŝajne, la kerna versio uzata de la "
 "instalilo malkongruas al tiu, kiu disponeblas en la arkivo."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Se vi instalas uzante Debianan arkivspegulservilon (arkivŝutspegulon), vi "
-"povas ĉirkaŭiri la problemon per instalo de alia Debiana versio. La "
-"instalprocezo verŝajne fiaskos, se vi daŭrigos la procezon sen kernaj "
-"moduloj."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Ĉu oni daŭrigu la instalprocezon sen ŝargi je kernaj moduloj?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Se vi instalas uzante Debianan arkivspegulservilon (arkivŝutspegulon), vi "
+#~ "povas ĉirkaŭiri la problemon per instalo de alia Debiana versio. La "
+#~ "instalprocezo verŝajne fiaskos, se vi daŭrigos la procezon sen kernaj "
+#~ "moduloj."

@@ -33,8 +33,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bg\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-02-25 18:10+0200\n"
 "Last-Translator: Damyan Ivanov <dmn@debian.org>\n"
 "Language-Team: Български <dict@fsa-bg.org>\n"
@@ -144,14 +144,14 @@ msgstr ""
 "Зареждането на ${PACKAGE} завърши неуспешно поради неизвестни причини.  "
 "Прекъсване."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Продължаване без зареждане на модули за ядрото?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -163,15 +163,23 @@ msgstr ""
 "Не са намерени модули. Вероятно това е поради несъответствие между версията "
 "на ядрото, използвано от този инсталатор, и версията, налична в архива."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Ако инсталирате от огледало, можете да заобиколите проблема, като изберете "
-"инсталиране на друга версия на Debian. Инсталацията сигурно няма да работи, "
-"ако продължите без зареждане на модули на ядрото."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Продължаване без зареждане на модули за ядрото?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Ако инсталирате от огледало, можете да заобиколите проблема, като "
+#~ "изберете инсталиране на друга версия на Debian. Инсталацията сигурно няма "
+#~ "да работи, ако продължите без зареждане на модули на ядрото."

@@ -57,11 +57,8 @@ int packages_ok (di_packages *packages) {
 		/* GNU Mach does not have modules */
 #else
 		debconf_input(debconf, "critical", "anna/no_kernel_modules");
-		if (debconf_go(debconf) == 30)
-			return 0;
-		debconf_get(debconf, "anna/no_kernel_modules");
-		if (strcmp(debconf->value, "false") == 0)
-			return 0;
+		debconf_go(debconf);
+		return 0;
 #endif
 	}
 

@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2011-02-20 19:50+0100\n"
 "Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team:  Czech <provoz@debian.cz>\n"
@@ -116,14 +116,14 @@ msgstr "Nahrání komponenty instalačního programu selhalo"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "Nahrání ${PACKAGE} selhalo z neznámého důvodu. Ruším akci."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Pokračovat v instalaci bez nahrání modulů jádra?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -135,15 +135,23 @@ msgstr ""
 "Nebyly nalezeny žádné moduly jádra. Pravděpodobně je to způsobeno rozdílným "
 "jádrem používaným touto verzí instalátoru a jádrem dostupným v archivu."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Pokud instalujete ze zrcadla, můžete tento problém obejít instalováním jiné "
-"verze Debianu. Pokud budete pokračovat bez modulů jádra, instalace "
-"pravděpodobně nebude fungovat."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Pokračovat v instalaci bez nahrání modulů jádra?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Pokud instalujete ze zrcadla, můžete tento problém obejít instalováním "
+#~ "jiné verze Debianu. Pokud budete pokračovat bez modulů jádra, instalace "
+#~ "pravděpodobně nebude fungovat."

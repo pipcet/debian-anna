@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-04-14 22:12+0600\n"
 "Last-Translator: Tennom <tankola@ymail.com, tennomyathog@gmail.com>\n"
 "Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
@@ -111,14 +111,14 @@ msgstr "སྒྲིག་འཇུག་ཆས་ཀྱི་ལྷུ་ལག
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "རྒྱུ་རྐྱེན་གང་ཡིན་མ་ཤེས་པར་${PACKAGE} ཡར་འཇུག་མ་ཐུབ། མཚམས་འཇོག་བཞིན་པ"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "ནང་སྙིང་གི་དཔེ་དབྱིབས་ཡར་འཇུག་མ་བྱས་པར་སྒྲིག་འཇུག་མུ་མཐུད"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -130,14 +130,22 @@ msgstr ""
 "ནང་སྙིང་མ་རྙེད་པ། རྒྱུ་རྐྱེན་ནི་ཕལ་ཆེར་སྒྲིག་འཇུག་ཆས་འདིས་སྤྱོད་པའི་ནང་སྙིང་གི་པར་གཞི་དང་འཇུག་མཛོད་ནང་"
 "ནས་སྤྱོད་རུང་བ་གཉིས་གཅིག་མཚུངས་མིན་པ་རེད"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"དྲ་གནས་ཞིག་ནས་སྒྲིག་འཇུག་བྱེད་བཞིན་ཡོད་ན་Debian གྱི་པར་གཞི་གཞན་ཞིག་བདམས་ནས་བཟོ་ཐུབ། ནང་སྙིང་མེད་"
-"པར་མུ་མཐུད་བཟོས་ན་སྒྲིག་འཇུག་མི་ཐུབ་པའི་ཉེན་ཁ་ཡོད"
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "ནང་སྙིང་གི་དཔེ་དབྱིབས་ཡར་འཇུག་མ་བྱས་པར་སྒྲིག་འཇུག་མུ་མཐུད"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "དྲ་གནས་ཞིག་ནས་སྒྲིག་འཇུག་བྱེད་བཞིན་ཡོད་ན་Debian གྱི་པར་གཞི་གཞན་ཞིག་བདམས་ནས་བཟོ་ཐུབ། ནང་སྙིང་"
+#~ "མེད་པར་མུ་མཐུད་བཟོས་ན་སྒྲིག་འཇུག་མི་ཐུབ་པའི་ཉེན་ཁ་ཡོད"

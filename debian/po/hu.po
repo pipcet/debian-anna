@@ -27,8 +27,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2013-11-18 21:15+0100\n"
 "Last-Translator: Judit Gyimesi <judit.gyimesi.x@gmail.com>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
@@ -159,20 +159,17 @@ msgstr "Egy telepítő rész betöltése meghiúsult"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "${PACKAGE} betöltése ismeretlen okokból meghiúsult. Kilépek."
 
-# Type: boolean
-# Description
-# :sl2:
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Folytatja a telepítést rendszermag modulok betöltése nélkül?"
+msgid "No kernel modules found"
+msgstr ""
 
 # Type: boolean
 # Description
 # :sl2:
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -184,18 +181,29 @@ msgstr ""
 "A rendszermag modulok hiányoznak. Ezt valószínűleg a telepítő e változatában "
 "és az archívumban elérhető rendszermag eltérése okozza."
 
-# Type: boolean
-# Description
-# :sl2:
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Ha a telepítés egy tükörről történik, a gond egy másik Debian változat "
-"telepítésével megkerülhető. A telepítés valószínűleg sikertelen lesz, ha "
-"rendszermag modulok nélkül folytatja."
+
+# Type: boolean
+# Description
+# :sl2:
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Folytatja a telepítést rendszermag modulok betöltése nélkül?"
+
+# Type: boolean
+# Description
+# :sl2:
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Ha a telepítés egy tükörről történik, a gond egy másik Debian változat "
+#~ "telepítésével megkerülhető. A telepítés valószínűleg sikertelen lesz, ha "
+#~ "rendszermag modulok nélkül folytatja."

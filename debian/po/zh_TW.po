@@ -29,8 +29,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2017-11-24 00:45+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
@@ -133,14 +133,14 @@ msgstr "無法載入安裝程式的元件"
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "因不明原因導致無法載入 ${PACKAGE}。程序中止。"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "是否不載入 Kernel 模組並繼續進行安裝？"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -152,14 +152,22 @@ msgstr ""
 "未能找到任何的 Kernel 模組。這很可能是因為安裝程式所使用的 Kernel 版本和檔案"
 "來源中所提供的 Kernel 版本不同的緣故。"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"如果您是使用鏡像站來進行安裝，您可以選擇安裝另一個版本的 Debian 來避開這個問"
-"題。如果您不載入 Kernel 模組並繼續進行可能會導致安裝程式無法正常運作。"
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "是否不載入 Kernel 模組並繼續進行安裝？"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "如果您是使用鏡像站來進行安裝，您可以選擇安裝另一個版本的 Debian 來避開這個"
+#~ "問題。如果您不載入 Kernel 模組並繼續進行可能會導致安裝程式無法正常運作。"

@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2018-02-07 12:45+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
@@ -124,14 +124,14 @@ msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
 "Ба сабаби номаълум боркунии ${PACKAGE} қатъ карда шуд. Қатъ шуда истодааст."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "Насбро бе боркунии модулҳои ҳаста идома медиҳед?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -144,15 +144,23 @@ msgstr ""
 "гунаи насбкунанда ва гунаи ҳастаи дастрас дар бойгонӣ ба ҳамдигар мутобиқат "
 "намекунанд."
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Агар аз оина насб намоед, метавонед ин мушкилиро тавассути интихоби насби "
-"гунаи дигари Debian ҳал намоед. Мумкин аст, ки агар шумо бе модулҳои ҳаста "
-"идома диҳед, насбкунанда қатъ карда мешавад."
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "Насбро бе боркунии модулҳои ҳаста идома медиҳед?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "Агар аз оина насб намоед, метавонед ин мушкилиро тавассути интихоби насби "
+#~ "гунаи дигари Debian ҳал намоед. Мумкин аст, ки агар шумо бе модулҳои "
+#~ "ҳаста идома диҳед, насбкунанда қатъ карда мешавад."

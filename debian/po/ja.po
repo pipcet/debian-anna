@@ -25,8 +25,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"Report-Msgid-Bugs-To: anna@packages.debian.org\n"
+"POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2012-11-27 16:57+0900\n"
 "Last-Translator:  Kenshi Muto <kmuto@debian.org>\n"
 "Language-Team: Debian L10n Japanese <debian-japanese@lists.debian.org>\n"
@@ -132,14 +132,14 @@ msgstr "インストーラコンポーネントのロードに失敗しました
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr "未知の理由で ${PACKAGE} のロードに失敗しました。中断します。"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-msgid "Continue the install without loading kernel modules?"
-msgstr "カーネルモジュールをロードせずにインストールを続けますか?"
+msgid "No kernel modules found"
+msgstr ""
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
@@ -152,15 +152,23 @@ msgstr ""
 "バージョンで使っているカーネルと、アーカイブで利用できるカーネルバージョンに"
 "ミスマッチが起きているためです。"
 
-#. Type: boolean
+#. Type: error
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
 msgid ""
-"If you're installing from a mirror, you can work around this problem by "
-"choosing to install a different version of Debian. The install will probably "
-"fail to work if you continue without kernel modules."
+"You should make sure that your installation image is up-to-date, or - if "
+"that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"ミラーからインストールしているのであれば、異なる Debian バージョンのインス"
-"トールを選ぶことで、この問題に対処できます。カーネルモジュールなしに続ける"
-"と、インストールはおそらく失敗します。"
+
+#~ msgid "Continue the install without loading kernel modules?"
+#~ msgstr "カーネルモジュールをロードせずにインストールを続けますか?"
+
+#~ msgid ""
+#~ "If you're installing from a mirror, you can work around this problem by "
+#~ "choosing to install a different version of Debian. The install will "
+#~ "probably fail to work if you continue without kernel modules."
+#~ msgstr ""
+#~ "ミラーからインストールしているのであれば、異なる Debian バージョンのインス"
+#~ "トールを選ぶことで、この問題に対処できます。カーネルモジュールなしに続ける"
+#~ "と、インストールはおそらく失敗します。"
