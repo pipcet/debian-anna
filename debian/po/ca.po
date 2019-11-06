@@ -4,9 +4,9 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Catalan messages for debian-installer.
-# Copyright 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2010, 2012 Software in the Public Interest, Inc.
+# Copyright 2002-2008, 2010, 2012, 2015, 2017-2018 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
-# Jordi Mallach <jordi@debian.org>, 2002, 2003, 2004, 2006, 2007, 2008, 2010, 2012.
+# Jordi Mallach <jordi@debian.org>, 2002-2008, 2010, 2012, 2015, 2017-2018.
 # Guillem Jover <guillem@debian.org>, 2005, 2007.
 #
 # Translations from iso-codes:
@@ -18,10 +18,10 @@
 # Traductor: Jordi Ferré <jordiferre@catalonia.altranet.fr>
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer wheezy\n"
+"Project-Id-Version: debian-installer buster\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2012-10-18 18:34+0200\n"
+"PO-Revision-Date: 2018-12-17 22:34+0100\n"
 "Last-Translator: Jordi Mallach <jordi@debian.org>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
 "Language: ca\n"
@@ -134,8 +134,9 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "No s'ha trobat cap disc"
 
 #. Type: error
 #. Description
@@ -158,15 +159,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Voleu continuar sense carregar mòduls del nucli?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Si esteu instal·lant des d'una rèplica, podeu evitar aquest problema "
-#~ "seleccionant la instal·lació d'una versió diferent de Debian. És probable "
-#~ "que la instal·lació no funcione si continueu sense mòduls del nucli."

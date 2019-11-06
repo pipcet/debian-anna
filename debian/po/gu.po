@@ -10,8 +10,16 @@
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
 # Contributor:
-# Kartik Mistry <kartik.mistry@gmail.com>, 2006-2009
+# Kartik Mistry <kartik.mistry@gmail.com>, 2006-2013
 #
+#
+# Translations from iso-codes:
+#   - translations from ICU-3.0
+#
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Kartik Mistry <kartik.mistry@gmail.com>, 2006, 2007, 2008.
+#   Ankit Patel <ankit644@yahoo.com>, 2009,2010.
+#   Sweta Kothari <swkothar@redhat.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: d-i\n"
@@ -19,7 +27,7 @@ msgstr ""
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
 "PO-Revision-Date: 2008-08-07 11:42+0530\n"
 "Last-Translator: Kartik Mistry <kartik.mistry@gmail.com>\n"
-"Language-Team: Gujarati <team@utkarsh.org>\n"
+"Language-Team: \n"
 "Language: gu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -124,8 +132,9 @@ msgstr "${PACKAGE} લાવવામાં અજ્ઞાત કારણો�
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "કોઇ ડિસ્ક મળી નહી"
 
 #. Type: error
 #. Description
@@ -147,15 +156,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "કર્નલ મોડ્યુલો લાવ્યા વગર સ્થાપન ચાલુ રાખશો?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "જો તમે મિરરમાંથી સ્થાપન કરતાં હોવ તો, તમે આ મુશ્કેલીના ઉપાય તરીકે બીજી ડેબિયન "
-#~ "આવૃતિમાંથી સ્થાપન કરી નીકાળી શકો છો. જો તમે કર્નલ મોડ્યુલો વગર આગળ વધવાનું ચાલુ "
-#~ "રાખશો તો આ સ્થાપન કદાચ નિષ્ફળ જશે."

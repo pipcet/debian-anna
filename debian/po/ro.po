@@ -19,6 +19,7 @@
 #    Developers do not need to manually edit POT or PO files.
 #
 # Eddy Petrișor <eddy.petrisor@gmail.com>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
+# Jobava <jobaval10n@gmail.com>, 2018.
 #
 # Translations from iso-codes:
 # Alastair McKinstry <mckinstry@debian.org>, 2004
@@ -30,15 +31,16 @@
 # Tobias Toedter <t.toedter@gmx.net>, 2007.
 # Translations taken from ICU SVN on 2007-09-09
 # Ioan Eugen Stan <stan.ieugen@gmail.com>, 2011.
+# Andrei Popescu <andreimpopescu@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2011-09-15 09:41+0300\n"
-"Last-Translator: Ioan Eugen Stan <stan.ieugen@gmail.com>\n"
-"Language-Team: ro <debian-l10n-romanian@lists.debian.org>\n"
+"PO-Revision-Date: 2018-11-29 15:49+0200\n"
+"Last-Translator: Andrei POPESCU <andreimpopescu@gmail.com>\n"
+"Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -148,8 +150,9 @@ msgstr "Încărcarea ${PACKAGE} a eșuat din motive necunoscute. Se abandonează
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Nu s-a găsit nici un disc"
 
 #. Type: error
 #. Description
@@ -172,15 +175,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Se continuă instalarea fără a încărca modulele de nucleu?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Dacă instalați de pe un sit alternativ, puteți ocoli această problemă "
-#~ "prin instalarea altei versiuni de Debian. Instalarea probabil că va eșua "
-#~ "dacă continuați fără module."

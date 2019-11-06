@@ -9,14 +9,14 @@
 #
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2018, 2019
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2018-02-07 12:45+0500\n"
+"PO-Revision-Date: 2019-09-10 18:06+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: tg\n"
@@ -128,8 +128,9 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Ягон диск ёфт нашуд"
 
 #. Type: error
 #. Description
@@ -152,15 +153,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Насбро бе боркунии модулҳои ҳаста идома медиҳед?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Агар аз оина насб намоед, метавонед ин мушкилиро тавассути интихоби насби "
-#~ "гунаи дигари Debian ҳал намоед. Мумкин аст, ки агар шумо бе модулҳои "
-#~ "ҳаста идома диҳед, насбкунанда қатъ карда мешавад."

@@ -18,12 +18,14 @@
 # Christian Rose <menthos@menthos.com>, 2004.
 # Daniel Nylander <po@danielnylander.se>, 2007.
 # Martin Bagge <martin.bagge@bthstudent.se>, 2008, 2016.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2018.
+# Mattias Münster <mattiasmun@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2017-11-29 09:45+0000\n"
+"PO-Revision-Date: 2019-10-12 16:52+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: sv\n"
@@ -133,8 +135,9 @@ msgstr "Inläsningen av ${PACKAGE} misslyckades av okänd anledning. Avbryter."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Hittade ingen hårddisk"
 
 #. Type: error
 #. Description
@@ -156,16 +159,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Fortsätt installationen utan att läsa in kärnmoduler?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Om du installerar från en spegelserver kan du komma runt det här "
-#~ "problemet genom att välja att installera en annan version av Debian. "
-#~ "Installationen kommer antagligen att misslyckas om du fortsätter utan "
-#~ "kärnmoduler."

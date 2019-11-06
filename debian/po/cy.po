@@ -21,13 +21,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2012-06-14 09:46-0000\n"
-"Last-Translator: Dafydd Tomos <l10n@da.fydd.org>\n"
+"PO-Revision-Date: 2019-08-28 18:10+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: Welsh <>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : "
+"(n==3) ? 3 :(n==6) ? 4 : 5;\n"
 
 #. Type: multiselect
 #. Description
@@ -130,8 +132,9 @@ msgstr "Llwytho ${PACKAGE} wedi methu am resymau anhysbys. Yn terfynu."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Ni chanfuwyd disg"
 
 #. Type: error
 #. Description
@@ -154,15 +157,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Parhau gyda'r sefydliad heb lwytho modiwlau cnewyllyn?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Os ydych chi'n sefydlu o ddrych, gallwch weithio o gwmpas y broblem hon "
-#~ "gan ddewis i sefydlu fersiwn gwahanol o Debian. Mae'n debygol bydd y "
-#~ "sefydliad yn methu gweithio os ydych chi'n parhau heb fodylau cnewyllyn."

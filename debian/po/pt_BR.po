@@ -3,27 +3,28 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of Debian Installer templates to Brazilian Portuguese.
+# Translation of Debian Installer templates to Brazilian Portuguese.
 # This file is distributed under the same license as debian-installer.
 #
-# Felipe Augusto van de Wiel (faw) <faw@debian.org>, 2008-2010.
+# Felipe Augusto van de Wiel (faw) <faw@debian.org>, 2008-2012.
+# Adriano Rafael Gomes <adrianorg@debian.org>, 2010-2018.
 #
 # Translations from iso-codes:
-# Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
-# Free Software Foundation, Inc., 2000
-# Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2000,2005.
-# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-9.
-# Lisiane Sztoltz <lisiane@conectiva.com.br>
-# Tobias Quathamer <toddy@debian.org>, 2007.
-#   Translations taken from ICU SVN on 2007-09-09
+#   Alastair McKinstry <mckinstry@computer.org>, 2001-2002.
+#   Free Software Foundation, Inc., 2000
+#   Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2000-2005.
+#   Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-2009.
+#   Lisiane Sztoltz <lisiane@conectiva.com.br>
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2012-03-31 20:46-0300\n"
-"Last-Translator: Felipe Augusto van de Wiel (faw) <faw@debian.org>\n"
+"PO-Revision-Date: 2019-08-17 08:45-0300\n"
+"Last-Translator: Adriano Rafael Gomes <adrianorg@debian.org>\n"
 "Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
 "org>\n"
 "Language: pt_BR\n"
@@ -134,8 +135,9 @@ msgstr "Falha ao carregar ${PACKAGE} por razões desconhecidas. Abortando."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Nenhum disco encontrado"
 
 #. Type: error
 #. Description
@@ -158,16 +160,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Continuar a instalação sem carregar módulos do kernel?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Se você está instalando a partir de um espelho de rede, você pode "
-#~ "contornar este problema optando por instalar uma versão diferente do "
-#~ "Debian. A instalação provavelmente falhará se você continuar sem módulos "
-#~ "de kernel."

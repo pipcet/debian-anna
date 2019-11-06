@@ -27,13 +27,13 @@
 #      Jakub Bogusz <qboosh@pld-linux.org>, 2007-2011.
 #      Tomasz Z. Napierala <zen@debian.linux.org.pl>, 2004, 2006.
 # Marcin Owsiany <porridge@debian.org>, 2011.
-# Michał Kułach <michal.kulach@gmail.com>, 2012, 2013.
+# Michał Kułach <michal.kulach@gmail.com>, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2011-09-26 10:46+0100\n"
+"PO-Revision-Date: 2018-12-17 22:56+0100\n"
 "Last-Translator: Michał Kułach <michal.kulach@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -146,8 +146,9 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Nie znaleziono dysku"
 
 #. Type: error
 #. Description
@@ -169,15 +170,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Kontynuować instalację bez ładowania modułów jądra?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Jeśli instalujesz korzystając z serwera lustrzanego, możesz obejść ten "
-#~ "problem wybierając instalację innej wersji Debiana. Instalacja bez "
-#~ "modułów jądra prawdopodobnie nie powiedzie się."

@@ -4,22 +4,39 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # translation of ar.po to Arabic
-# Arabic messages for debian-installer. Copyright (C) 2003 Software in the Public Interest, Inc. This file is distributed under the same license as debian-installer. Ossama M. Khayat <okhayat@yahoo.com>, 2005.
-# Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2007, 2008, 2009, 2010.
+# Arabic messages for debian-installer. Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+# Ossama Khayat <okhayat@yahoo.com>, 2005 - 2013.
+# Abdelhak Bougouffa, 2017.
+# najib LAARIBI <supnano@gmail.com>, 2018.
+# ButterflyOfFire <ButterflyOfFire@protonmail.com>, 2018.
+# Osama <osama.ibrahim.89@gmail.com>, 2019.
+#
+# Translations from iso-codes:
+#     Translations taken from ICU SVN on 2007-09-09
+#   Translations from kde-i18n/desktop.po:
+#
+#   Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
+#   Free Software Foundation, Inc., 2002, 2004.
+#   Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2008, 2010.
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#   Mohammad Gamal <f2c2001@yahoo.com>, 2001.
 msgid ""
 msgstr ""
 "Project-Id-Version: ar\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2010-08-22 23:44+0300\n"
-"Last-Translator: Ossama M. Khayat <okhayat@yahoo.com>\n"
-"Language-Team: American English <support@arabeyes.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-06-10 10:55+0000\n"
+"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
+"Language-Team: \n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 && n⇐10 ? "
-"3 : n>=11 && n⇐99 ? 4 : 5\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 
 #. Type: multiselect
 #. Description
@@ -119,8 +136,9 @@ msgstr "فشل تحميل ${PACKAGE} لأسبابٍ مجهولة. جاري ال�
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "لم يعثر على أي قرص"
 
 #. Type: error
 #. Description
@@ -143,14 +161,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "الاستمرار بالتثبيت دون تحميل وحدات النواة؟"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "إن كنت تقوم بالتثبيت من مرآة، فيمكنك حلّ هذه المشكلة باختيار تثبيت نسخة "
-#~ "أخرى من دبيان. سيخفق التثبيت على الأرجح ان استمريت بدون وحدات النواة."

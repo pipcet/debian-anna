@@ -127,8 +127,9 @@ msgstr "${PACKAGE} लोड होणे अपरिचित कारणा�
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "कोणतीही डिस्क सापडली नाही"
 
 #. Type: error
 #. Description
@@ -150,15 +151,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "कर्नल मोडयुल्स न वापरता अधिष्ठापना पुढे चालू ठेवायची?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "जर तुम्ही मिरर मधून अधिष्ठापना करत असाल तर तूम्ही डेबिअनची वेगळी आवृत्ती अधिष्ठापित "
-#~ "करुन या समस्येवर तोडगा काढू शकता. जर तुम्ही कर्नल मॉड्यूल्सशिवाय ही अधिष्ठापना पुढे सुरू "
-#~ "ठेवली तर ती बहुदा अयशस्वी होईल."

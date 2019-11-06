@@ -21,13 +21,14 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2011-12-17 11:35+0530\n"
-"Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
+"PO-Revision-Date: 2019-08-28 18:10+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #. Type: multiselect
 #. Description
@@ -128,8 +129,9 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "ಯಾವುದೇ ಡಿಸ್ಕ್ ಪತ್ತೆಯಾಗಿಲ್ಲ"
 
 #. Type: error
 #. Description
@@ -151,15 +153,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "ಕರ್ನಲ್ ಘಟಕಗಳನ್ನು ಹೇರದೆಯೇ ಸಂಸ್ಥಾಪನೆ ಮುಂದುವರೆಸುವುದೇ?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "ನೀವು ದರ್ಪಣದಿಂದ ಅನುಸ್ಥಾಪಿಸುತ್ತಿದ್ದಲ್ಲಿ, ಈ ಸಮಸ್ಯೆಯನ್ನು ನಿವಾರಿಸಲು ಬೇರೊಂದು ಡೆಬಿಯನ್ "
-#~ "ಆವೃತ್ತಿಯನ್ನು ಅನುಸ್ಥಾಪಿಸಿ. ನೀವು ಕರ್ನಲ್ ಘಟಕಗಳಿಲ್ಲದೆ ಮುಂದುವರೆದರೆ ಬಹುಶಃ ಈ "
-#~ "ಅನುಸ್ಥಾಪನೆಯು ವಿಫಲಗೊಳ್ಳಬಹುದು."

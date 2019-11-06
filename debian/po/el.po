@@ -20,7 +20,7 @@
 # quad-nrg.net <yodesy@quad-nrg.net>, 2006, 2008.
 # QUAD-nrg.net <yodesy@quad-nrg.net>, 2006.
 # galaxico@quad-nrg.net <galaxico@quad-nrg.net>, 2009, 2011.
-# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010, 2013, 2014.
+# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010, 2013, 2014, 2018.
 #   Tobias Quathamer <toddy@debian.org>, 2007.
 #   Free Software Foundation, Inc., 2004.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
@@ -33,14 +33,14 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2017-11-17 01:07+0200\n"
-"Last-Translator: Sotirios Vrachas <sotirios@vrachas.net>\n"
+"PO-Revision-Date: 2019-06-26 14:09+0200\n"
+"Last-Translator: galaxico <galas@tee.gr>\n"
 "Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: multiselect
 #. Description
@@ -145,8 +145,9 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Δε βρέθηκε δίσκος"
 
 #. Type: error
 #. Description
@@ -169,17 +170,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr ""
-#~ "Να συνεχιστεί η εγκατάσταση χωρίς τη φόρτωση των αρθρωμάτων του πυρήνα;"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Αν κάνετε την εγκατάσταση από κάποιον καθρέφτη αρχείων, μπορείτε το "
-#~ "ξεπεράσετε το πρόβλημα δοκιμάζοντας να εγκαταστήσετε διαφορετική έκδοση "
-#~ "του Debian. Η εγκατάσταση πιθανότατα θα αποτύχει αν συνεχίσετε χωρίς "
-#~ "αρθρώματα του πυρήνα."

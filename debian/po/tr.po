@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2016-07-25 23:45+0300\n"
+"PO-Revision-Date: 2018-10-06 18:45+0300\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -139,8 +139,9 @@ msgstr "${PACKAGE} bileşeni bilinmeyen nedenlerle yüklenemedi."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Herhangi bir disk bulunamadı"
 
 #. Type: error
 #. Description
@@ -163,15 +164,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Çekirdek modüllerini yüklemeden kuruluma devam edilsin mi?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Bir yansıdan kurulum yapıyorsanız farklı bir Debian sürümü kurmayı "
-#~ "seçerek bu sorunu geçici olarak çözebilirsiniz. Çekirdek modülleri "
-#~ "olmadan sürdürülen bir kurulum büyük bir olasılıkla başarısız olacaktır."

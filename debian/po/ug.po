@@ -5,7 +5,7 @@
 #
 #
 #
-# Debian Installer master translation file template
+# Debian Installer master translation for Uyghur
 # Don't forget to properly fill-in the header of PO files
 #
 # Debian Installer translators, please read the D-I i18n documentation
@@ -19,10 +19,10 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2011-03-24 09:40+0600\n"
-"Last-Translator: Sahran <sahran.ug@gmail.com>\n"
+"PO-Revision-Date: 2018-08-22 12:42+0000\n"
+"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
-"Language: \n"
+"Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -126,8 +126,9 @@ msgstr "${PACKAGE}نى  يۈكلەش سەۋەبسىز مەغلۇپ بولدى. �
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "دىسكا تېپىلمىدى"
 
 #. Type: error
 #. Description
@@ -150,16 +151,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "يادرو(kernel) بۆلەكلىرىنى يۈكلىمەستىنلا ئورنىتىشنى داۋاملاشتۇرامدۇ؟"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "ئەگەر تەسۋىردىن چۈشۈرۈپ ئورنىتىۋاتقان بولسىڭىز، بۇ مەسىلىنى Debian نىڭ "
-#~ "باشقا نۇسخىلىرىنى ئورنىتىش ئارقىلىق ھەل قىلالىشىڭىز مۇمكىن. ئەگەر "
-#~ "يادرولۇق بۆلەكسىز  ئورنىتىشنى داۋام ئەتسىڭىز، ئاقىۋەتتە مەغلۇپ بولۇش "
-#~ "ئېھتىماللىقى چوڭ."

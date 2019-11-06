@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-07-04 17:02+0000\n"
+"PO-Revision-Date: 2019-07-19 19:31+0000\n"
 "Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -134,8 +134,9 @@ msgstr "Učitavanje ${PACKAGE} neuspjelo zbog nepoznatih razloga. Prekidam."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Nijedan disk nije pronađen"
 
 #. Type: error
 #. Description
@@ -157,15 +158,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Nastavi instalaciju bez učitavanja kernelovih modula?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Ako instalirate sa zrcalnog poslužitelja, možete riješiti ovaj problem "
-#~ "instalirajući neku drugu inačicu Debiana. Instalacija vjerojatno neće "
-#~ "uspjeti ako nastavite bez kernelovih modula."

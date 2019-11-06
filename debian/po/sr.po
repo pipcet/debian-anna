@@ -26,8 +26,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2018-02-07 21:39+0000\n"
-"Last-Translator: Слободан Симић(Slobodan Simić) <slsimic@gmail.com>\n"
+"PO-Revision-Date: 2018-12-16 11:12+0000\n"
+"Last-Translator: Filipovic Dragan <filipovic@tutanota.com>\n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -136,8 +136,9 @@ msgstr "Учитавање ${PACKAGE} неуспешно из непознати
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Није пронађен ниједан диск"
 
 #. Type: error
 #. Description
@@ -159,15 +160,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Наставити инсталацију без учитавања модула за кернел?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Ако инсталирате са мирора, можете заобићи овај проблем тако што ћете "
-#~ "изабрати да инсталирате другу верзију Debian-а. Инсталација вероватно "
-#~ "неће радити ако наставите без модула за кернел."

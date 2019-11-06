@@ -129,8 +129,9 @@ msgstr "Việc tải gói ${PACKAGE} bị lỗi vì lý do không rõ nên hủy
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Không tìm thấy đĩa"
 
 #. Type: error
 #. Description
@@ -153,16 +154,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Tiếp tục cài đặt mà không tải những mô-đun hạt nhân không?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Nến bạn đang cài đặt từ máy bản sao (mirror), có thể chỉnh sửa vân đề này "
-#~ "bằng cách chọn cài đặt một phiên bản Debian khác. Việc cài đặt này rất có "
-#~ "thể sẽ không hoặt động được nếu bạn tiếp tục mà không có những mô-đun hạt "
-#~ "nhân."

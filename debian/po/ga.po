@@ -6,6 +6,12 @@
 # Irish messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
+#
+# Translations from iso-codes:
+# Alastair McKinstry <mckinstry@computer.org>, 2001,2002
+# Free Software Foundation, Inc., 2001,2003
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2004, 2008, 2009, 2011.
+# Sean V. Kelley <s_oceallaigh@yahoo.com>, 1999
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
@@ -120,8 +126,9 @@ msgstr "Theip ar luchtú ${PACKAGE} agus ní fios cén fáth. Á thobscor."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Níor aimsíodh diosca"
 
 #. Type: error
 #. Description
@@ -144,15 +151,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Lean ar aghaidh leis an tsuiteáil gan na modúil eithne a luchtú?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Má tá tú ag suiteáil ó shuíomh scáthánaithe, is féidir an fhadhb seo a "
-#~ "sheachaint trí leagan difriúil de Debian a shuiteáil. Is dócha nach n-"
-#~ "éireofar leis an tsuiteáil má théann tú ar aghaidh gan mhodúil eithne."

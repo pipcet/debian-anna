@@ -15,19 +15,24 @@
 # Alexander Didebulidze <didebuli@in.tum.de>, Vladimer Sichinava <vlsichinava@gmail.com>
 # Taya Kharitonashvili <taya13@gmail.com>, Gia Shervashidze - www.gia.ge
 #
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Aiet Kolkhi <aietkolkhi@gmail.com>, 2008.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer.2006071\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2011-03-01 12:49+0400\n"
-"Last-Translator: Aiet Kolkhi <aietkolkhi@gmail.com>\n"
+"PO-Revision-Date: 2019-08-28 18:09+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: Georgian\n"
-"Language: \n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Type: multiselect
 #. Description
@@ -131,8 +136,9 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "დისკი ვერ მოიძებნა"
 
 #. Type: error
 #. Description
@@ -155,17 +161,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr ""
-#~ "გსურთ ინსტალაციის გაგრძელება კკერნელის მოდულების გამოძახების გარეშე?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "თუ თქვენ ინსტალაციას მირორიდან ახორციელდებთ, თქვენ შეგიძლიათ ამ პრობლემის "
-#~ "მოგვარება, თუ Debian-ის სხვა ვერსიის დააყენებთ. თუ კერნელის მოდულების "
-#~ "გარეშე ინსტალაციას გააგრძელებთ, სავარაუდოდ საინსტალაციო პროგამა ვერ "
-#~ "იმუშავებს."

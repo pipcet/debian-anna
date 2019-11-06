@@ -20,15 +20,16 @@
 # Amanpreet Singh Brar <aalam@users.sf.net>, 2008.
 # Amanpreet Singh Alam <aalam@users.sf.net>, 2008, 2009.
 # Amanpreet Singh Alam[ਆਲਮ] <amanpreetalam@yahoo.com>, 2005.
-# A S Alam <aalam@users.sf.net>, 2009, 2012.
+# A S Alam <aalam@users.sf.net>, 2009, 2012, 2014, 2017.
+# Aman ALam <alam.yellow@gmail.com>, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2012-05-06 12:14+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"PO-Revision-Date: 2019-08-26 15:24+0000\n"
+"Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
+"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -131,8 +132,9 @@ msgstr "${PACKAGE} ਦੀ ਲੋਡਿੰਗ ਅਣਜਾਣੇ ਕਾਰਨ ਕ
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "ਕੋਈ ਡਿਸਕ ਨਹੀਂ ਲੱਭੀ"
 
 #. Type: error
 #. Description
@@ -154,14 +156,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "ਕੀ ਕਰਨਲ ਮੋਡੀਊਲ ਲੋਡ ਕੀਤੇ ਬਿਨਾਂ ਇੰਸਟਾਲ ਜਾਰੀ ਰੱਖਣੀ ਹੈ?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "ਜੇ ਤੁਸੀਂ ਈਮੇਜ਼ ਤੋਂ ਇੰਸਟਾਲ ਕਰ ਰਹੇ ਹੋ, ਤੁਸੀਂ ਇਸ ਮੁਸ਼ਕਿਲ ਦਾ ਹੱਲ ਡੇਬੀਅਨ ਦਾ ਹੋਰ ਵਰਜਨ ਚੁਣ ਕੇ ਕਰ "
-#~ "ਸਕਦੇ ਹੋ। ਇੰਸਟਾਲ ਅਸਫਲ ਹੋਵੇਗਾ ਜੇ ਤੁਸੀਂ ਕਰਨਲ ਮੋਡੀਊਲ ਤੋਂ ਬਿਨਾਂ ਜਾਰੀ ਕੀਤਾ।"

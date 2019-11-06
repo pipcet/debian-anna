@@ -10,20 +10,39 @@
 # Knut Yrvin <knuty@skolelinux.no>, 2004.
 # Klaus Ade Johnstad <klaus@skolelinux.no>, 2004.
 # Axel Bojer <axelb@skolelinux.no>, 2004.
-# Bjørn Steensrud <bjornst@powertech.no>, 2004, 2005, 2006, 2007.
-# Hans Fredrik Nordhaug <hans@nordhaug.priv.no>, 2005, 2007, 2008.
+# Bjørn Steensrud <bjornst@powertech.no>, 2004-2007.
+# Hans Fredrik Nordhaug <hans@nordhaug.priv.no>, 2005, 2007-2015.
+# Petter Reinholdtsen <pere@hungry.com>, 2017.
+# Allan Nordhøy <epost@anotheragency.no>, 2019.
+#
+# Translations from iso-codes:
+#
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
+#   Axel Bojer <axelb@skolelinux.no>, 2004.
+#   Bjørn Steensrud <bjornst@powertech.no>, 2006.
+#   Free Software Foundation, Inc., 2002,2004.
+#   Hans Fredrik Nordhaug <hans@nordhaug.priv.no>, 2007-2015.
+#   Håvard Korsvoll <korsvoll@skulelinux.no>, 2004.
+#   Knut Yrvin <knuty@skolelinux.no>, 2004.
+#   Tobias Toedter <t.toedter@gmx.net>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Translations from KDE:
+#   Rune Nordvik <rune@linuxnorge.com>, 2001.
+#   Kjartan Maraas <kmaraas@broadpark.no>, 2009.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2008-08-03 07:52+0200\n"
-"Last-Translator: Hans Fredrik Nordhaug <hans@nordhaug.priv.no>\n"
+"PO-Revision-Date: 2019-10-15 04:52+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
-"Language: \n"
+"Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: multiselect
 #. Description
@@ -126,8 +145,9 @@ msgstr "Lastingen av ${PACKAGE} mislyktes av ukjente årsaker. Avbryter."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Fant ingen harddisker"
 
 #. Type: error
 #. Description
@@ -150,15 +170,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Vil du fortsette installasjonen uten å laste inn kjernemoduler?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Hvis du installerer fra et nett-arkiv kan du komme rundt dette problemet "
-#~ "ved å velge å installere en annen Debian-versjon. Installasjonen blir "
-#~ "antakelig mislykket hvis du fortsetter uten kjernemoduler."

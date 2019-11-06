@@ -12,14 +12,14 @@
 # in doc/i18n/i18n.txt
 #
 #
-# Danishka Navin <danishka@gmail.com>, 2009, 2011.
+# Danishka Navin <danishka@gmail.com>, 2009, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2011-09-15 07:01+0530\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2019-08-28 18:10+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: Sinhala <info@hanthana.org>\n"
 "Language: si\n"
 "MIME-Version: 1.0\n"
@@ -124,8 +124,9 @@ msgstr "${PACKAGE} පූර්ණය කිරීම නොදන්නා හ�
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "කිසිඳු තැටියක් හමු නොවිනි"
 
 #. Type: error
 #. Description
@@ -147,15 +148,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "කර්නල මොඩියුල පූර්ණයෙන් තොරව ස්ථාපනය ඉදිරියට ගෙනයන්නද?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "ඔබ පිළිබිඹුවකින් මෙම ස්ථාපනය සිදුකරයි නම්, වෙනත් Debian සංස්කරණයක් තෝරාගැනීම මගින් මෙම "
-#~ "ගැටළුව මගහැර යා හැක, ඔක කර්නල මොඩියුලයන්ගෙන් තොරව ඉදිරියට යයි නම් ස්ථාපනය බොහෝවිට "
-#~ "අසාර්ථක විය හැක."

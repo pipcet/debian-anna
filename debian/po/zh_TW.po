@@ -5,6 +5,8 @@
 #
 # Traditional Chinese messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
+# Louies <louies0623@gmail.com>, 2019.
+# Walter Cheuk <wwycheuk@gmail.com>, 2019.
 # This file is distributed under the same license as debian-installer.
 #
 #
@@ -31,8 +33,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2017-11-24 00:45+0000\n"
-"Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
+"PO-Revision-Date: 2019-09-27 13:59+0000\n"
+"Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
 "Language: zh_TW\n"
@@ -137,8 +139,9 @@ msgstr "因不明原因導致無法載入 ${PACKAGE}。程序中止。"
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "未能找到磁碟"
 
 #. Type: error
 #. Description
@@ -160,14 +163,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "是否不載入 Kernel 模組並繼續進行安裝？"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "如果您是使用鏡像站來進行安裝，您可以選擇安裝另一個版本的 Debian 來避開這個"
-#~ "問題。如果您不載入 Kernel 模組並繼續進行可能會導致安裝程式無法正常運作。"

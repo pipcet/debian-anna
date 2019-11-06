@@ -11,19 +11,23 @@
 # Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2008.
 # Erdal <erdal.ronahi@gmail.com>, 2010.
 # Erdal Ronahî <erdal.ronahi@gmail.com>, 2010.
+#
+# Translations from iso-codes:
+#   Erdal Ronahi <erdal.ronahi@gmail.com>, 2005.
+# Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: ku\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2010-07-09 21:51+0200\n"
+"PO-Revision-Date: 2010-08-16 00:19+0200\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
 "Language: ku\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!= 1);\n"
 
 #. Type: multiselect
 #. Description
@@ -126,8 +130,9 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
+#, fuzzy
 msgid "No kernel modules found"
-msgstr ""
+msgstr "Tu disk nehat dîtin"
 
 #. Type: error
 #. Description
@@ -149,15 +154,3 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-
-#~ msgid "Continue the install without loading kernel modules?"
-#~ msgstr "Bila sazkirin bêyî barkirina modulên kernelê bidome?"
-
-#~ msgid ""
-#~ "If you're installing from a mirror, you can work around this problem by "
-#~ "choosing to install a different version of Debian. The install will "
-#~ "probably fail to work if you continue without kernel modules."
-#~ msgstr ""
-#~ "Heke tu ji neynikekê sazkirinê dikî, guhertoyeke cuda ya Debian hilbijêre "
-#~ "da tu vê pirsgirêkê çareser bikî. Heke bêyî modulên kernelê tu bidomînî, "
-#~ "bi gumaneke mezin dê sazkirina te bi ser nekeve."
