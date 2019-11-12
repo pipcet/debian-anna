@@ -35,8 +35,8 @@ msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-10-15 04:52+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2019-11-08 00:04+0000\n"
+"Last-Translator: Deleted User <noreply+17348@weblate.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
@@ -145,9 +145,8 @@ msgstr "Lastingen av ${PACKAGE} mislyktes av ukjente årsaker. Avbryter."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Fant ingen harddisker"
+msgstr "Ingen kjernemoduler funnet"
 
 #. Type: error
 #. Description
@@ -170,3 +169,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Du må sørge for at installasjonsbildet ditt er oppdatert, eller - hvis det "
+"er tilfelle - prøv et annet speil, helst deb.debian.org."

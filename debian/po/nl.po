@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-11-06 16:14+0100\n"
+"PO-Revision-Date: 2019-11-11 21:24+0100\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -142,9 +142,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Er is geen schijf gevonden"
+msgstr "Geen kernelmodules gevonden"
 
 #. Type: error
 #. Description
@@ -155,7 +154,7 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
-"Er zijn geen kernelmodules gevonden. Dit is waarschijnlijk het gevolg van "
+"Er werden geen kernelmodules gevonden. Dit is waarschijnlijk het gevolg van "
 "het niet overeenkomen van de kernelversie van het installatieprogramma en de "
 "kernelversie beschikbaar in het archief."
 
@@ -167,3 +166,6 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"U moet ervoor zorgen dat uw installatie-image up-to-date is, of - indien dat "
+"het geval is - een andere spiegelserver proberen te gebruiken, bij voorkeur "
+"deb.debian.org."

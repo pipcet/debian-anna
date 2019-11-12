@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-10-12 16:52+0000\n"
+"PO-Revision-Date: 2019-11-08 00:04+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: sv\n"
@@ -135,9 +135,8 @@ msgstr "Inläsningen av ${PACKAGE} misslyckades av okänd anledning. Avbryter."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Hittade ingen hårddisk"
+msgstr "Hittade inga kärnmoduler"
 
 #. Type: error
 #. Description
