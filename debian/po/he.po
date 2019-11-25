@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-10-12 16:52+0000\n"
+"PO-Revision-Date: 2019-11-19 12:04+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -134,9 +134,8 @@ msgstr "טעינת ${PACKAGE} נכשלה מסיבה לא ברורה. התהלי�
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "אף דיסק לא נמצא"
+msgstr "לא נמצאו מודולים של הליבה"
 
 #. Type: error
 #. Description
@@ -158,3 +157,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"עליך לוודא שדמות ההתקנה עדכנית או, אם בכך מדובר, לנסות אתר מראה אחר, עדיפות "
+"ל־deb.debian.org."

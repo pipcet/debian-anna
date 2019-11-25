@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-10-08 08:56+0000\n"
+"PO-Revision-Date: 2019-11-21 11:04+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -134,9 +134,8 @@ msgstr "Ekki tókst að hlaða inn ${PACKAGE} af einhverjum ástæðum. Hætti v
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Engin diskur fannst"
+msgstr "Engar kjarnaeiningar fundust"
 
 #. Type: error
 #. Description
@@ -159,3 +158,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Þú ættir að ganga úr skugga um að uppsetningarmiðillinn þinn sé ekki "
+"úreltur, eða - ef sú er raunin - prófa annan spegil, helst deb.debian.org."
