@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-09-23 20:36+0100\n"
+"PO-Revision-Date: 2019-11-30 11:55+0000\n"
 "Last-Translator:  Miguel Figueiredo <elmig@debianpt.org>\n"
 "Language-Team:  Portuguese <traduz@debianpt.org>\n"
 "Language: pt\n"
@@ -133,9 +133,8 @@ msgstr "A leitura de ${PACKAGE} falhou por razões desconhecidas. Abortando."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Não foi encontrado nenhum disco"
+msgstr "Não foram encontrados módulos de kernel"
 
 #. Type: error
 #. Description
@@ -158,3 +157,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Deve assegurar-se que a sua imagem de instalação está atualizada, ou - se "
+"for o caso - tentar um mirror diferente, preferencialmente deb.debian.org."
