@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2018-12-16 11:12+0000\n"
+"PO-Revision-Date: 2019-12-05 21:45+0000\n"
 "Last-Translator: Filipovic Dragan <filipovic@tutanota.com>\n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
 "Language: sr\n"
@@ -136,9 +136,8 @@ msgstr "Учитавање ${PACKAGE} неуспешно из непознати
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Није пронађен ниједан диск"
+msgstr "Није пронађен модул језгра"
 
 #. Type: error
 #. Description
@@ -160,3 +159,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Проверите да ли је ваша инсталациона слика ажурирана или - ако је то случај "
+"- покушајте са другим сервером, по могућности са deb.debian.org."

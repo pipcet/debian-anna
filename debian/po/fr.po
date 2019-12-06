@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-10-15 11:09+0100\n"
+"PO-Revision-Date: 2019-12-06 14:54+0100\n"
 "Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -143,9 +143,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Aucun disque trouvé"
+msgstr "Aucun module du noyau trouvé"
 
 #. Type: error
 #. Description
@@ -168,3 +167,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Assurez-vous que votre image d'installation est à jour. Si c'est le cas, "
+"veuillez essayer un autre miroir, de préférence deb.debian.org."
