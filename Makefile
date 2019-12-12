@@ -24,6 +24,6 @@ small: clean $(BIN)
 clean:
 	-rm -f $(BIN) $(OBJS) *~
 
-anna.o util.o retriever.o: anna.h util.h
-anna.o retriever.o: util.h
+anna.o util.o retriever.o: anna.h
+anna.o util.o retriever.o: util.h
 anna.o retriever.o: retriever.h
