@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-08-26 15:24+0000\n"
+"PO-Revision-Date: 2019-12-15 20:21+0000\n"
 "Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
@@ -132,9 +132,8 @@ msgstr "${PACKAGE} ਦੀ ਲੋਡਿੰਗ ਅਣਜਾਣੇ ਕਾਰਨ ਕ
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "ਕੋਈ ਡਿਸਕ ਨਹੀਂ ਲੱਭੀ"
+msgstr "ਕੋਈ ਕਰਨਲ ਮੋਡੀਊਲ ਨਹੀਂ ਲੱਭਿਆ"
 
 #. Type: error
 #. Description
@@ -156,3 +155,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"ਤੁਹਾਨੂੰ ਪੱਕਾ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਕਿ ਤੁਹਾਡਾ ਇੰਸਟਾਲੇਸ਼ਨ ਈਮੇਜ਼ ਨਵਾਂ-ਨਕੋਰ ਹੈ ਜਾਂ ਜੇ ਇਹ ਹੈ ਤਾਂ ਵੱਖਰਾ ਮਿੱਰਰ "
+"ਵਰਤ ਕੇ ਵੇਖੋ, ਸੰਭਾਵਿਤ ਤੌਰ ਉੱਤੇ eb.debian.org।"
