@@ -1,5 +1,7 @@
 anna (1.73) unstable; urgency=medium
 
+  * Team upload
+
   [ Holger Wansing ]
   * Change template, to give a senseful message to the user, when no kernel
     modules can be found.
