@@ -1,12 +1,30 @@
-anna (1.73) UNRELEASED; urgency=medium
+anna (1.73) unstable; urgency=medium
 
+  [ Holger Wansing ]
   * Change template, to give a senseful message to the user, when no kernel
     modules can be found.
     Also, turn that from a question into an error message, since continuing
     isn't possible without kernel modules anyway.
+    Includes updating all po|pot files.
     Closes: #749991, #367515.
 
- -- Holger Wansing <hwansing@mailbox.org>  Tue, 05 Nov 2019 23:50:24 +0100
+  [ Stefanos Chaliasos ]
+  * Fix missing input of util.h in Makefile.
+
+  [ Updated translations ]
+  * German (de.po) by Holger Wansing
+  * French (fr.po) by Baptiste Jammet
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Indonesian (id.po) by Andika Triwidada
+  * Icelandic (is.po) by Sveinn í Felli
+  * Norwegian Bokmal (nb.po) by Deleted User
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Punjabi (Gurmukhi) (pa.po) by Aman ALam
+  * Portuguese (pt.po) by Miguel Figueiredo
+  * Serbian (sr.po) by Filipovic Dragan
+  * Swedish (sv.po) by Mattias Münster
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 19 Dec 2019 23:44:26 +0100
 
 anna (1.72) unstable; urgency=medium
 
