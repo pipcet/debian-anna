@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-03-30 18:32+0100\n"
+"PO-Revision-Date: 2019-12-27 14:49+0100\n"
 "Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team:  Czech <provoz@debian.cz>\n"
 "Language: cs\n"
@@ -127,9 +127,8 @@ msgstr "Nahrání ${PACKAGE} selhalo z neznámého důvodu. Ruším akci."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Žádné disky nenalezeny"
+msgstr "Žádné moduly jádra nenalezeny"
 
 #. Type: error
 #. Description
@@ -151,3 +150,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Měli byste se ujistit, že je váš instalační obraz aktuální, případně zkusit "
+"použít jiné zrcadlo, ideálně deb.debian.org."
