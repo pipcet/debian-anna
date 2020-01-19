@@ -29,14 +29,15 @@
 # YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
 # Yangfl <mmyangfl@gmail.com>, 2017.
 # Boyuan Yang <073plan@gmail.com>, 2018, 2019.
+# 玉堂白鹤 <yjwork@qq.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-09-20 19:27+0000\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"PO-Revision-Date: 2020-01-18 06:21+0000\n"
+"Last-Translator: 玉堂白鹤 <yjwork@qq.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -139,9 +140,8 @@ msgstr "未知原因导致组件 ${PACKAGE} 加载失败。程序中止。"
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "未找到磁盘"
+msgstr "未找内核模块"
 
 #. Type: error
 #. Description
@@ -163,3 +163,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"您应该确保您的安装映像是最新的，或者 - 这样的话 - 请尝试使用其他镜像，最好是"
+"使用 deb.debian.org。"
