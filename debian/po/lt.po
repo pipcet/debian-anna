@@ -20,20 +20,22 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
 # Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004, 2006, 2008, 2009, 2010.
 # Rimas Kudelis <rq@akl.lt>, 2012, 2017, 2018.
+# Tautvydas Zukauskas <tautzuk@tutanota.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2018-10-11 19:10+0300\n"
-"Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
+"PO-Revision-Date: 2020-02-16 17:50+0000\n"
+"Last-Translator: Tautvydas Zukauskas <tautzuk@tutanota.com>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
 
 #. Type: multiselect
 #. Description
@@ -137,9 +139,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Diskas nerastas"
+msgstr "Branduolio modulių nerasta"
 
 #. Type: error
 #. Description
@@ -161,3 +162,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Turėtumėte įsitikinti, jog jūsų diegimo laikmenos atvaizdas yra naujausias "
+"arba pabandykite naują veidrodį, geriausiai deb.debian.org."
