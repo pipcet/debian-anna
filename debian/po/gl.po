@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2018-09-27 20:25+0000\n"
-"Last-Translator: mantinan <github@manty.net>\n"
+"PO-Revision-Date: 2020-02-27 14:33+0000\n"
+"Last-Translator: riesp <riesp@pm.me>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -135,9 +135,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Non se atopou ningún disco"
+msgstr "Non se atoparon módulos do kernel"
 
 #. Type: error
 #. Description
