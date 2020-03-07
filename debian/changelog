@@ -1,3 +1,14 @@
+anna (1.75) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Galician (gl.po) by riesp
+  * Lithuanian (lt.po) by Tautvydas Zukauskas
+  * Russian (ru.po) by Lev Lamberov
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 07 Mar 2020 19:56:36 +0100
+
 anna (1.74) unstable; urgency=medium
 
   * Team upload
