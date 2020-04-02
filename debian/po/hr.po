@@ -18,14 +18,15 @@
 #   Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013, 2014, 2015.
 #   Valentin Vidic <Valentin.Vidic@CARNet.hr>, 2017
 #   Milo Ivir <mail@milotype.de>, 2019.
+#   gogogogi <trebelnik2@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2020-01-01 19:21+0000\n"
-"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"PO-Revision-Date: 2020-04-02 18:02+0000\n"
+"Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -136,7 +137,7 @@ msgstr "Učitavanje ${PACKAGE} neuspjelo zbog nepoznatih razloga. Prekidam."
 #. :sl2:
 #: ../anna.templates:8001
 msgid "No kernel modules found"
-msgstr "Moduli jezgre nisu pronađeni"
+msgstr "Nema pronađenih kernelovih modula"
 
 #. Type: error
 #. Description
