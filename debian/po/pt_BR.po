@@ -7,7 +7,7 @@
 # This file is distributed under the same license as debian-installer.
 #
 # Felipe Augusto van de Wiel (faw) <faw@debian.org>, 2008-2012.
-# Adriano Rafael Gomes <adrianorg@debian.org>, 2010-2018.
+# Adriano Rafael Gomes <adrianorg@debian.org>, 2010-2020.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2001-2002.
@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-08-17 08:45-0300\n"
+"PO-Revision-Date: 2020-04-12 20:04-0300\n"
 "Last-Translator: Adriano Rafael Gomes <adrianorg@debian.org>\n"
 "Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
 "org>\n"
@@ -135,9 +135,8 @@ msgstr "Falha ao carregar ${PACKAGE} por razões desconhecidas. Abortando."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Nenhum disco encontrado"
+msgstr "Nenhum módulo de kernel encontrado"
 
 #. Type: error
 #. Description
@@ -160,3 +159,6 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Você deve se certificar de que a sua imagem de instalação esteja atualizada "
+"ou, se esse for o caso, tentar um espelho diferente, preferivelmente deb."
+"debian.org."
