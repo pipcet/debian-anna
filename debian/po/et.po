@@ -8,7 +8,7 @@
 # This translation is released under the same licence as the debian-installer.
 #
 # Siim Põder <siim@p6drad-teel.net>, 2007.
-# Kristjan Räts <kristjanrats@gmail.com>, 2017, 2018.
+# Kristjan Räts <kristjanrats@gmail.com>, 2017, 2018, 2020.
 #
 # Thanks to following Ubuntu Translators for review and fixes:
 #     Laur Mõtus
@@ -32,7 +32,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2018-07-24 14:27+0000\n"
+"PO-Revision-Date: 2020-04-12 08:11+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -140,9 +140,8 @@ msgstr "${PACKAGE} laadimine nurjus teadmata põhjustel. Katkestatakse."
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Ühtki ketast ei leitud"
+msgstr "Kerneli mooduleid ei leitud"
 
 #. Type: error
 #. Description
@@ -165,3 +164,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Sa peaksid veenduma, et su paigaldustõmmis on ajakohane, või kui see on nii, "
+"proovima erinevat peeglit, eelistatult deb.debian.org."
