@@ -1,3 +1,16 @@
+anna (1.76) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Estonian (et.po) by Kristjan Räts
+  * Croatian (hr.po) by gogogogi
+  * Korean (ko.po) by Changwoo Ryu
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 10 May 2020 12:45:34 +0200
+
 anna (1.75) unstable; urgency=medium
 
   * Team upload
