@@ -24,13 +24,13 @@
 #   Grégoire Colbert <gregus@linux-mandrake.com>, 2001.
 #   Tobias Quathamer <toddy@debian.org>, 2007, 2008.
 # Alban Vidal <alban.vidal@zordhak.fr>, 2018.
-# Baptiste Jammet <baptiste@mailoo.org>, 2019.
+# Baptiste Jammet <baptiste@mailoo.org>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-12-06 14:54+0100\n"
+"PO-Revision-Date: 2020-08-17 10:18+0100\n"
 "Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -93,7 +93,7 @@ msgstr ""
 "d'installation qui sont indispensables sont chargés par défaut. Les autres "
 "composants ne sont pas tous nécessaires pour une installation simple. "
 "Cependant, certains peuvent l'être pour vous, notamment certains modules du "
-"noyau : vous devriez vérifier soigneusement la liste et choisir ceux dont "
+"noyau : vous devriez vérifier soigneusement la liste et choisir ceux dont "
 "vous avez besoin."
 
 #. Type: text
