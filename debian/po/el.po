@@ -28,14 +28,15 @@
 #   Simos Xenitellis <simos@hellug.gr>, 2001.
 #   Konstantinos Margaritis <markos@debian.org>, 2004.
 #   Athanasios Lefteris <alefteris@gmail.com>, 2008, 2012.
+# root <galatoulas@cti.gr>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-06-26 14:09+0200\n"
-"Last-Translator: galaxico <galas@tee.gr>\n"
-"Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
+"PO-Revision-Date: 2020-09-10 02:33+0300\n"
+"Last-Translator: root <galatoulas@cti.gr>\n"
+"Language-Team: Greek\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -145,9 +146,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Δε βρέθηκε δίσκος"
+msgstr "Δε βρέθηκαν αρθρώματα του πυρήνα"
 
 #. Type: error
 #. Description
@@ -169,4 +169,4 @@ msgstr ""
 msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
-msgstr ""
+msgstr "´"
