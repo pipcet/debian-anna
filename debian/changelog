@@ -1,3 +1,17 @@
+anna (1.77) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Greek (el.po) by root
+  * Spanish (es.po) by Javier Fernández-Sanguino
+  * Persian (fa.po) by Abbas Baharforoosh
+  * French (fr.po) by Baptiste Jammet
+  * Indonesian (id.po) by Andika Triwidada
+  * Polish (pl.po) by Bartosz Feński
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 19 Sep 2020 23:52:46 +0200
+
 anna (1.76) unstable; urgency=medium
 
   * Team upload
