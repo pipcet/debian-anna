@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2020-10-04 13:50+0200\n"
+"PO-Revision-Date: 2020-10-11 15:47+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -126,9 +126,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Cap de volum logic pas trobat"
+msgstr "Cap de modul nuclèu pas trobat"
 
 #. Type: error
 #. Description
@@ -151,3 +150,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Devètz vos assegurar que l’imatge d’installacion es a jorn, o s’es lo cas, "
+"ensajar un autre miralh, de preferéncia deb.debian.org."
