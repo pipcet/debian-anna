@@ -27,13 +27,14 @@
 #   JOE MAN <trmetal@yahoo.com.hk>, 2001.
 #   Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2005.
 #   Yao Wei (魏銘廷) <mwei@lxde.org>, 2012.
+#   Walter Cheuk <wwycheuk@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-09-27 13:59+0000\n"
+"PO-Revision-Date: 2020-10-22 09:29+0000\n"
 "Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
@@ -139,9 +140,8 @@ msgstr "因不明原因導致無法載入 ${PACKAGE}。程序中止。"
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "未能找到磁碟"
+msgstr "找不到內核模組"
 
 #. Type: error
 #. Description
