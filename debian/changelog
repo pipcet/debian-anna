@@ -1,3 +1,20 @@
+anna (1.78) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Basque (eu.po) by Iñaki Larrañaga Murgoitio
+  * Italian (it.po) by Milo Casagrande
+  * Marathi (mr.po) by Prachi Joshi
+  * Traditional Chinese (zh_TW.po) by Walter Cheuk
+
+  [ New translations ]
+  * Kabyle (kab.po) by Slimane Selyan Amiri
+  * Occitan (oc.po) by Quentin PAGÈS
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 01 Nov 2020 11:08:36 +0100
+
 anna (1.77) unstable; urgency=medium
 
   * Team upload
