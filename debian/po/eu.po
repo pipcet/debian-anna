@@ -24,10 +24,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: eu\n"
+"Project-Id-Version: di-sublevel1_eu\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2020-10-28 20:33+0100\n"
+"PO-Revision-Date: 2020-11-03 18:23+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -57,9 +57,9 @@ msgid ""
 "may be interesting to some users."
 msgstr ""
 "Instalatzaileak instalazioa burutzeko behar dituen osagai guztiak "
-"automatikoki kargatuko dira. Zerrendan instalatzailearen beste osagai batzuk "
-"(aukerakoak). Ziurrenik ez dira beharrezkoak, baina baliteke erabiltzaile "
-"batzuentzat interesgarri izatea."
+"automatikoki kargatuko dira. Instalatzailearen beste osagai batzuk "
+"(aukerakoak) behean zerrendatuta daude. Ziurrenik ez dira beharrezkoak, "
+"baina baliteke erabiltzaile batzuentzat interesgarri izatea."
 
 #. Type: multiselect
 #. Description
@@ -139,9 +139,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Ez da diskorik aurkitu"
+msgstr "Ez da nukleoaren modulurik aurkitu"
 
 #. Type: error
 #. Description
@@ -164,3 +163,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Ziurtatu zaitez instalazioaren irudia eguneratuta dagoela, edo - kasua bada "
+"- saiatu beste ispilu batekin, deb.debian.org bereziki."
