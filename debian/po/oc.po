@@ -16,13 +16,14 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2020-10-11 15:47+0200\n"
-"Last-Translator: Quentin PAGÈS\n"
+"PO-Revision-Date: 2020-11-15 18:28+0000\n"
+"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #. Type: multiselect
 #. Description
@@ -32,7 +33,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr "Components d'installacion de cargar :"
+msgstr "Compausants d'installacion de cargar :"
 
 #. Type: multiselect
 #. Description
@@ -44,9 +45,9 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
-"Totes los components necessaris per l'installacion seràn cargats "
-"automaticament e son pas afichats aicí. D'autres components de l'installador "
-"(opcionals) son afichats çaijós. Probable que son pas necessaris mas pòdon "
+"Totes los compausant necessaris per l'installacion seràn cargats "
+"automaticament e son pas afichats aicí. D'autres compausant de l'installador "
+"(opcionals) son afichats çai-jos. Probable que son pas necessaris mas pòdon "
 "èsser interessants per d'unes utilizaires."
 
 #. Type: multiselect
@@ -60,7 +61,7 @@ msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
 msgstr ""
-"Notatz que se causissètz un component que necessita d'autres components, "
+"Notatz que se causissètz un compausant que requerís d'autres compausants, "
 "aqueles seràn cargats tanben."
 
 #. Type: multiselect
@@ -74,10 +75,10 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
-"Per estalviar la memòria, sols los components del programa d'installacion "
-"que son indispensables son cargats per defaut. Los autres components son pas "
-"totes necessaris per una installacion simpla. Pr'aquò, d'unes o pòdon èsser "
-"per vos, en particular d'unes moduls del nucli : vos caldriá verificar "
+"Per estalviar la memòria, sols los compausants del programa d'installacion "
+"que son indispensables son cargats per defaut. Los autres compausants son "
+"pas totes necessaris per una installacion simpla. Pr'aquò, d'unes o pòdon "
+"èsser per vos, en particular d'unes moduls del nucli : vos caldriá verificar "
 "menimosament la lista e causir los que vos cal."
 
 #. Type: text
@@ -87,7 +88,7 @@ msgstr ""
 #. :sl1:
 #: ../anna.templates:3001
 msgid "Loading additional components"
-msgstr "Cargament de components suplementaris"
+msgstr "Cargament de compausants suplementaris"
 
 #. Type: text
 #. Description
@@ -112,7 +113,7 @@ msgstr "Configuracion de ${PACKAGE}"
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr "Impossible de cargar le programa d'installacion del component"
+msgstr "Impossible de cargar lo programa d'installacion del compausant"
 
 #. Type: error
 #. Description
