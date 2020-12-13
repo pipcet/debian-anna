@@ -20,6 +20,8 @@
 #
 # Eddy Petrișor <eddy.petrisor@gmail.com>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
 # Jobava <jobaval10n@gmail.com>, 2018.
+# Andrei Popescu <andreimpopescu@gmail.com>, 2018, 2020.
+# Sergiu <adinfinitvm@wail.ch>, 2020.
 #
 # Translations from iso-codes:
 # Alastair McKinstry <mckinstry@debian.org>, 2004
@@ -31,15 +33,14 @@
 # Tobias Toedter <t.toedter@gmx.net>, 2007.
 # Translations taken from ICU SVN on 2007-09-09
 # Ioan Eugen Stan <stan.ieugen@gmail.com>, 2011.
-# Andrei Popescu <andreimpopescu@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2018-11-29 15:49+0200\n"
-"Last-Translator: Andrei POPESCU <andreimpopescu@gmail.com>\n"
+"PO-Revision-Date: 2020-12-12 08:29+0000\n"
+"Last-Translator: Sergiu <adinfinitvm@wail.ch>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -150,9 +151,8 @@ msgstr "Încărcarea ${PACKAGE} a eșuat din motive necunoscute. Se abandonează
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Nu s-a găsit nici un disc"
+msgstr "Nu s-a găsit nici un modul de nucleu"
 
 #. Type: error
 #. Description
@@ -175,3 +175,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Asigurați-vă că imaginea de instalare este actualizată, sau, dacă este "
+"cazul, încercați un alt site oglindă, de preferință deb.debian.org."
