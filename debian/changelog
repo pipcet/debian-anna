@@ -1,3 +1,15 @@
+anna (1.79) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Greek (el.po) by EG
+  * Basque (eu.po) by Iñaki Larrañaga Murgoitio
+  * Occitan (oc.po) by Quentin PAGÈS
+  * Romanian (ro.po) by Sergiu
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 27 Dec 2020 19:04:03 +0100
+
 anna (1.78) unstable; urgency=medium
 
   * Team upload
