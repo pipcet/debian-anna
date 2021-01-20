@@ -27,12 +27,16 @@
 # Kumar Appaiah <kumar.appaiah@gmail.com>, 2008, 2011, 2012.
 # Sruthi Chandran <srud@openmailbox.org>, 2018.
 # Himanshu Awasthi <johim9493@gmail.com>, 2018.
+# KushagraKarira <kushagrakarira@gmail.com>, 2020, 2021.
+# षिखर् <dnitesigm@gmail.com>, 2020.
+# Indrani Roy <indrani@scriptek.co.in>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_hi\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-06-18 19:05+0000\n"
+"PO-Revision-Date: 2021-01-20 18:26+0000\n"
 "Last-Translator: KushagraKarira <kushagrakarira@gmail.com>\n"
 "Language-Team: \n"
 "Language: hi\n"
@@ -119,7 +123,7 @@ msgstr "प्राप्त किया जा रहा हैः ${PACKAGE}
 #. :sl1:
 #: ../anna.templates:5001
 msgid "Configuring ${PACKAGE}"
-msgstr "${PACKAGE} प्राप्त किया जा रहा है "
+msgstr "${PACKAGE} प्राप्त किया जा रहा है"
 
 #. Type: error
 #. Description
@@ -139,9 +143,8 @@ msgstr "अविदित कारणों से ${PACKAGE} लोड नह
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "कोई डिस्क नहीं मिला"
+msgstr "कोई कर्नेल मॉड्यूल नहीं मिला"
 
 #. Type: error
 #. Description
@@ -163,3 +166,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"आपको यह सुनिश्चित करना चाहिए कि आपकी स्थापना छवि अद्यतित है, या - यदि यह मामला है "
+"- एक अलग दर्पण की कोशिश करें, अधिमानतः deb.debian.org।"
