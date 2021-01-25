@@ -6,20 +6,21 @@
 # Kabyle translation for debian-installer
 # Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
 # This file is distributed under the same license as the debian-installer package.
-# Slimane Selyan Amiri <selyan.kab@gmail.com>, 2020.
+# Slimane Selyan Amiri <selyan.kab@gmail.com>, 2020, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2020-10-24 15:08+0100\n"
-"Last-Translator: Slimane Selyan Amiri <selyan.kab@gmail.com>\n"
+"PO-Revision-Date: 2021-01-22 00:39+0000\n"
+"Last-Translator: Selyan Sliman Amiri <selyan.kab@gmail.com>\n"
 "Language-Team: Kabyle <kab@li.org>\n"
 "Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #. Type: multiselect
 #. Description
@@ -73,8 +74,8 @@ msgid ""
 msgstr ""
 "I usekles n tkatut, ala isuddas i ilaqen i usebded i d-yettwafernen s wudem "
 "amezwer. Mačči meṛṛa isuddas-nniḍen n usebdad wulmen i usebded n udasil, "
-"maca yezmer ad teḥwiǧeḍ kra seg-sen, aṭas aṭas kra n yizegrar n kernel, "
-"muqel tabdart s ttawil syen fren isuddas i teḥwaǧeḍ."
+"maca yezmer ad teḥwiǧeḍ kra seg-sen, aṭas kra n yizegrar n kernel, muqel "
+"tabdart s ttawil syen fren isuddas i teḥwaǧeḍ."
 
 #. Type: text
 #. Description
@@ -133,7 +134,7 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
-"Ulac kernel n yizegrar i   yettwufan. Sebba n wayagi ahat d amgarrad yellan "
+"Ulac kernel n yizegrar i yettwufan. Sebba n wayagi ahat d amgarrad yellan "
 "ger tɣessa yettusqedcen di lqem n wahil-agi n usebded akked lqem n wahil "
 "iwejden."
 
