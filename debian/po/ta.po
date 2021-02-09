@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2021-01-27 12:32+0000\n"
+"PO-Revision-Date: 2021-02-09 18:59+0000\n"
 "Last-Translator: Vasudevan Tirumurti <agnihot3@gmail.com>\n"
 "Language-Team: Tamil <<gnome-tamil-translation@googlegroups.com>>\n"
 "Language: ta\n"
@@ -132,9 +132,8 @@ msgstr "${PACKAGE}'ன் ஏற்றம், தெரியாத காரண
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "வட்டுகள் ஏதும் காணவில்லை"
+msgstr "உட்கரு தொகுதிகள் ஏதும் காணவில்லை"
 
 #. Type: error
 #. Description
@@ -156,3 +155,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"உங்கள் நிறுவல் பிம்பம் மிக சமீபத்தியத்ததாக இருப்பதை உறுதி படுத்திக்கொள்ளவும், அல்லது - "
+"அதுதான் விஷயம் எனில் வேறு பிரதிபலிப்பானை முயல்க, deb.debian.org நல்லது."
