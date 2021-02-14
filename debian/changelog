@@ -1,3 +1,18 @@
+anna (1.80) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Catalan (ca.po) by d
+  * Galician (gl.po) by mantinan
+  * Hindi (hi.po) by KushagraKarira
+  * kab (kab.po) by Selyan Sliman Amiri
+  * Latvian (lv.po) by Tranzistors
+  * Tamil (ta.po) by Vasudevan Tirumurti
+  * Thai (th.po) by Theppitak Karoonboonyanan
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 14 Feb 2021 18:32:42 +0100
+
 anna (1.79) unstable; urgency=medium
 
   * Team upload
