@@ -15,6 +15,7 @@
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2012.
 # Juhani Numminen <juhaninumminen0@gmail.com>, 2018, 2019.
 # Arto Keiski <arto.keiski@iki.fi>, 2018.
+# Kimmo Kujansuu <mrkujansuu@gmail.com>, 2021.
 #
 # Translations from iso-codes:
 # Copyright (C) 2007 Tobias Toedter <t.toedter@gmx.net>.
@@ -27,8 +28,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: anna@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-05 23:57+0100\n"
-"PO-Revision-Date: 2019-02-01 20:18+0000\n"
-"Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
+"PO-Revision-Date: 2021-07-12 20:33+0000\n"
+"Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -139,9 +140,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../anna.templates:8001
-#, fuzzy
 msgid "No kernel modules found"
-msgstr "Levyä ei löydy"
+msgstr "Kernel moduuleja ei löytynyt"
 
 #. Type: error
 #. Description
@@ -163,3 +163,5 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
+"Varmista, että asennusmedia on ajan tasalla, tai - jos näin on, kokeile "
+"toista pakettivaraston peiliä, mieluiten deb.debian.org."
