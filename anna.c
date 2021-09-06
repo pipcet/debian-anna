@@ -53,13 +53,9 @@ int packages_ok (di_packages *packages) {
 
 	if (!kernel_packages_present) {
 		di_log(DI_LOG_LEVEL_WARNING, "no packages matching running kernel %s in archive", running_kernel);
-#ifdef __GNU__
-		/* GNU Mach does not have modules */
-#else
-		debconf_input(debconf, "critical", "anna/no_kernel_modules");
-		debconf_go(debconf);
-		return 0;
-#endif
+		/* Standard anna returns a non-recoverable error here;
+		 * we don't, since we use the Debian userspace with
+		 * our own kernel and modules. */
 	}
 
 	return 1;
